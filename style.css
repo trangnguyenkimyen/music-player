@@ -32,6 +32,10 @@ body {
   filter: blur(100px);
   opacity: 0.8;
   animation: floatOrb infinite alternate ease-in-out;
+
+  /* Tối ưu hiệu suất GPU */
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .orb-1 {
@@ -85,6 +89,9 @@ body {
   -webkit-backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+
+  /* Tối ưu hiệu suất GPU mặt kính */
+  will-change: backdrop-filter;
 }
 
 .player-container {
@@ -286,7 +293,6 @@ body {
    RESPONSIVE CHO ĐIỆN THOẠI (MOBILE)
 ========================================= */
 @media (max-width: 600px) {
-  /* Kích thước chữ và padding giữ nguyên theo ý bạn */
   #current-lyric {
     font-size: 1.3rem;
   }
@@ -299,23 +305,23 @@ body {
     margin-top: 15px;
   }
 
-  /* Kích hoạt đốm sáng bự và quỹ đạo mới trên điện thoại */
   .orb {
-    filter: blur(80px);
+    filter: blur(80px); /* Giảm nhòe nhẹ trên thiết bị di động để chống lag */
   }
+
   .orb-1 {
-    width: 100vw;
-    height: 100vw;
+    width: 150vw;
+    height: 150vw;
     animation: floatOrb1_mobile 15s infinite alternate ease-in-out;
   }
   .orb-2 {
-    width: 85vw;
-    height: 85vw;
+    width: 130vw;
+    height: 130vw;
     animation: floatOrb2_mobile 18s infinite alternate ease-in-out;
   }
   .orb-3 {
-    width: 50vw;
-    height: 50vw;
+    width: 120vw;
+    height: 120vw;
     animation: floatOrb3_mobile 22s infinite alternate ease-in-out;
   }
 }

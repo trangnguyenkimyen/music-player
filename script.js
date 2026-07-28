@@ -1,4 +1,4 @@
-// Dữ liệu lrc (Giữ nguyên)
+// Dữ liệu lrc
 const rawLrc = `
 [00:00.000] I'm so in love, I'm so in love
 [00:02.472] I don't ever wanna stop this ride that we're on
@@ -60,18 +60,18 @@ const currentTimeEl = document.getElementById("current-time");
 const durationEl = document.getElementById("duration");
 const discSpin = document.getElementById("disc-spin");
 
-// --- Khai báo mã SVG thay cho icon chữ ---
+// --- Khai báo mã SVG ---
 const playIcon = `<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
 const pauseIcon = `<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>`;
 
 playBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    playBtn.innerHTML = pauseIcon; // Đổi mã HTML thành hình Pause
+    playBtn.innerHTML = pauseIcon;
     discSpin.style.animationPlayState = "running";
   } else {
     audio.pause();
-    playBtn.innerHTML = playIcon; // Đổi mã HTML thành hình Play
+    playBtn.innerHTML = playIcon;
     discSpin.style.animationPlayState = "paused";
   }
 });
@@ -91,16 +91,24 @@ progressBar.addEventListener("input", () => {
 });
 
 let currentActiveIndex = -1;
+let lastUpdateTime = 0; // Biến giới hạn fps thanh cuộn chống lag
 
 audio.addEventListener("timeupdate", () => {
-  if (audio.duration) {
-    progressBar.value = (audio.currentTime / audio.duration) * 100;
-    currentTimeEl.innerText = formatTime(audio.currentTime);
+  const currentTime = audio.currentTime;
+
+  // 1. CHỐNG LAG THANH THỜI GIAN: Chỉ cập nhật giao diện 4 lần/giây thay vì liên tục
+  if (Date.now() - lastUpdateTime > 250) {
+    if (audio.duration) {
+      progressBar.value = (currentTime / audio.duration) * 100;
+      currentTimeEl.innerText = formatTime(currentTime);
+    }
+    lastUpdateTime = Date.now();
   }
 
+  // 2. CHẠY LỜI BÀI HÁT
   let activeIndex = -1;
   for (let i = 0; i < lyricsData.length; i++) {
-    if (audio.currentTime >= lyricsData[i].time) {
+    if (currentTime >= lyricsData[i].time) {
       activeIndex = i;
     } else {
       break;
@@ -111,14 +119,17 @@ audio.addEventListener("timeupdate", () => {
     currentActiveIndex = activeIndex;
     currentLyricEl.style.opacity = 0;
 
-    setTimeout(() => {
-      currentLyricEl.innerText = lyricsData[activeIndex].text || "♪ ♪ ♪";
-      currentLyricEl.style.opacity = 1;
-    }, 200);
+    // Yêu cầu trình duyệt lên lịch chuyển đổi khung hình tiếp theo (chống khựng chữ)
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        currentLyricEl.innerText = lyricsData[activeIndex].text || "♪ ♪ ♪";
+        currentLyricEl.style.opacity = 1;
+      }, 200);
+    });
   }
 });
 
-// Khi hết bài nhạc thì trả nút SVG về dạng Play
+// Khi hết bài nhạc
 audio.addEventListener("ended", () => {
   playBtn.innerHTML = playIcon;
   progressBar.value = 0;
