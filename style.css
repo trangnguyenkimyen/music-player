@@ -310,18 +310,18 @@ body {
   }
 
   .orb-1 {
-    width: 150vw;
-    height: 150vw;
+    width: 100vw;
+    height: 100vw;
     animation: floatOrb1_mobile 15s infinite alternate ease-in-out;
   }
   .orb-2 {
-    width: 130vw;
-    height: 130vw;
+    width: 80vw;
+    height: 80vw;
     animation: floatOrb2_mobile 18s infinite alternate ease-in-out;
   }
   .orb-3 {
-    width: 120vw;
-    height: 120vw;
+    width: 70vw;
+    height: 70vw;
     animation: floatOrb3_mobile 22s infinite alternate ease-in-out;
   }
 }
