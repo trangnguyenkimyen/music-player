@@ -217,6 +217,13 @@ body {
   color: #ffffff;
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
   transition: opacity 0.4s ease-in-out;
+
+  /* --- FIX LỖI CHỮ "BÓNG MA" TRÊN IPHONE/SAFARI --- */
+  position: relative;
+  z-index: 1;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: opacity, transform;
 }
 
 /* --- CONTROLS BAR --- */
