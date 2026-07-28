@@ -1,94 +1,58 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:12.229] Hey girl, where you at?
-[00:13.493] (Where you at?)
-[00:15.176] Daeche eodiseo mwo haneunji gunggeumhae
-[00:18.023] Gibuni neomu bad, bad
-[00:20.269] (So bad)
-[00:21.520] Chimdaega heojeonhae jami an ojana
-[00:24.468] Jaemido eopseo TV show
-[00:26.506] Neo derigo noldeon pretty boy
-[00:28.102] Geu gomineul naege teoreonoteon
-[00:29.761] Neoui pyojeongi ajik seonmyeonghae
-[00:31.400] Sopae ben ni hyanggiga birithae
-[00:32.995] Nae momi jakku ppajyeo gipi, yeah
-[00:34.812] Miri arado nan iri
-[00:36.121] Mеongcheonghage haengdongеul haebeorindanikka
-[00:38.383] Oh, please
-[00:39.100] Love me, love me, love me
-[00:40.251] I know, I'm stupid
-[00:41.639] Eojjeol su eopseo neol bogo sipeungeol
-[00:44.039] Oh, please
-[00:45.403] Love me, love me, love me
-[00:46.591] I know, I'm stupid
-[00:48.014] Eojjeol su eopseo neol bogo sipeungeol
-[00:50.482] Now I say, I love you
-[00:52.053] So I love you
-[00:53.638] Now I say, I love you
-[00:55.198] Na apeudeorado molla
-[00:57.149] Now I say, I love you
-[00:58.542] So, I love you
-[00:59.962] Now I say, I love you
-[01:01.619] Na apeudeorado molla
-[01:03.959] Oh, please
-[01:05.006] Love me, love me, love me
-[01:06.019] I know, I'm stupid
-[01:07.419] Eojjeol su eopseo neol bogo sipeungeol
-[01:10.380] Oh, please
-[01:11.381] Love me, love me, love me
-[01:12.564] I know, I'm stupid
-[01:13.969] Eojjeol su eopseo neol bogo sipeungeol
-[01:16.268] Now I say, I love you
-[01:17.867] Try, try
-[01:18.817] Malhalkka nae burane buraneul
-[01:20.321] Kkeunkyeotdaneun Wi-Fi
-[01:21.745] Ijen an mideo Lie, lie
-[01:23.360] Maeil ppajyeoitdeon neoui banjigachi
-[01:25.001] Heojeonham saisai
-[01:26.581] Geu jariui gihoereul
-[01:27.944] Amuegena jugo tto, bye-bye
-[01:30.075] Neoneun neom ppalli deulleotda gagi ttaeme
-[01:32.501] Naneun taiming an maja maeil bappi
-[01:33.681] Hwareul naeya halji animyeon geunyang agicheoreom
-[01:35.348] Ureobeorigoseo ttereul sseoya halji
-[01:37.062] I don't know aye moreugesseo
-[01:38.499] Ireoni naega noryeokaedo
-[01:40.013] Sigani eopseuni eojjeogesseo
-[01:41.570] Hal mari hanabakke deo itgesseo
-[01:43.246] Oh, please
-[01:43.907] Love me, love me, love me
-[01:45.195] I know, I'm stupid
-[01:46.496] Eojjeol su eopseo neol bogo sipeungeol
-[01:48.889] Oh, please
-[01:50.253] Love me, love me, love me
-[01:51.489] I know, I'm stupid
-[01:52.812] Eojjeol su eopseo neol bogo sipeungeol
-[01:59.578] Now I say, I love you
-[02:01.399] So, I love you
-[02:03.030] Now I say, I love you
-[02:04.558] Na apeudeorado molla
-[02:06.698] Now I say, I love you
-[02:07.933] So, I love you
-[02:09.455] Now I say, I love you
-[02:11.052] Na apeudeorado molla
-[02:13.456] Oh, please
-[02:14.278] Love me, love me, love me
-[02:15.332] I know, I'm stupid
-[02:16.797] Eojjeol su eopseo neol bogo sipeungeol
-[02:19.664] Oh, please
-[02:20.627] Love me, love me, love me
-[02:21.876] I know, I'm stupid
-[02:23.196] Eojjeol su eopseo neol bogo sipeungeol
-[02:25.561] Now I say, I love you
-[02:27.218] Oh, please
-[02:27.850] Love me, love me, love me
-[02:28.762] Oh, please
-[02:30.440] Love me, love me, love me
-[02:31.817] Oh, please
-[02:33.593] Love me, love me, love me
-[02:34.854] I know, I'm stupid
-[02:36.257] Eojjeol su eopseo neol bogo sipeungeol
-[02:38.594] Now I say, I love you
+[00:10.988] Hey, you there
+[00:14.725] Can we take it to the next level,
+[00:18.189] baby, do you dare?
+[00:20.327] Don't be scared
+[00:24.124] 'Cause if you can say the words,
+[00:26.932] I don't know why I should care
+[00:29.582] 'Cause here I am,
+[00:31.048] I'm givin' all I can
+[00:33.657] But all you ever do is mess it up
+[00:38.471] Yeah, I'm right here,
+[00:40.797] I'm tryin' to make it clear
+[00:43.025] That getting half of you just ain't enough
+[00:47.492] I'm not going to wait until you're done
+[00:51.816] Pretending you don't need anyone
+[00:56.277] I'm standing here naked (naked, naked)
+[01:01.341] I'm standing here naked (naked, naked)
+[01:06.076] I'm not gonna try 'til you decide
+[01:10.827] You're ready to swallow all your pride
+[01:15.004] I'm standing here naked (naked, naked)
+[01:20.046] I'm standing here naked (naked, naked)
+[01:26.309] Hey, get out
+[01:29.920] I've got nothin' left to give for you give me nothin' now
+[01:35.306] Read my mouth
+[01:39.503] If you ever want me back,
+[01:42.134] then your walls need breakin' down
+[01:44.653] 'Cause here I am, I'm givin' all I can
+[01:48.967] But all you ever do is mess it up
+[01:52.874] (all you ever do is mess it up)
+[01:54.514] Yeah, I'm right here,
+[01:56.059] I'm tryin' to make it clear
+[01:58.350] getting half of you just ain't enough
+[02:02.058] I'm not going to wait until you're done
+[02:06.848] Pretending you don't need anyone
+[02:11.488] I'm standing here naked (naked, naked)
+[02:16.762] I'm standing here naked (naked, naked)
+[02:21.278] I'm not gonna try 'til you decide
+[02:25.621] You're ready to swallow all your pride
+[02:30.419] I'm standing here naked (naked, naked)
+[02:35.434] I'm standing here naked (naked, naked)
+[02:41.245] I wanna give you everything
+[02:43.938] I wanna give you everything
+[02:51.185] I wanna give you everything
+[02:53.339] I wanna give you everything
+[02:59.238] I'm not going to wait until you're gone
+[03:03.251] 'Cause you pretended you don't need anyone
+[03:08.035] 'Can you see that I'm naked (naked, naked)
+[03:13.079] Oh, you see that I'm naked (naked, naked)
+[03:17.909] I'm not going to try 'til you decide
+[03:22.383] You're ready to swallow all your pride
+[03:26.850] I'm standing here naked (naked, naked)
+[03:32.635] I'm standing here naked (I'm standing) (naked, naked)
+[03:39.995] I'm standing
+[03:42.361] I'm standing here
 `;
 
 function parseLrc(lrcString) {
