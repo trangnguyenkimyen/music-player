@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  background-color: #12121e;
+}
+
+/* --- BACKGROUND ĐỐM SÁNG CHUYỂN ĐỘNG --- */
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.8;
+  animation: floatOrb infinite alternate ease-in-out;
+}
+
+.orb-1 {
+  width: 50vw;
+  height: 50vw;
+  background-color: #ff8fb3;
+  top: -10%;
+  left: -10%;
+  animation-duration: 12s;
+}
+
+.orb-2 {
+  width: 40vw;
+  height: 40vw;
+  background-color: #d16ba5;
+  bottom: -20%;
+  right: -10%;
+  animation-duration: 15s;
+  animation-delay: 2s;
+}
+
+.orb-3 {
+  width: 35vw;
+  height: 35vw;
+  background-color: #fcb69f;
+  top: 30%;
+  left: 40%;
+  animation-duration: 18s;
+  animation-delay: 5s;
+}
+
+@keyframes floatOrb {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-30px, 40px) scale(0.95);
+  }
+  100% {
+    transform: translate(50px, 20px) scale(1.05);
+  }
+}
+
+/* --- TRÌNH PHÁT NHẠC KÍNH (GLASSMORPHISM) --- */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.player-container {
+  width: 445px;
+  max-width: 90vw;
+  padding: 30px 20px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- KHU VỰC HÌNH ẢNH GHÉP --- */
+.art-composite {
+  position: relative;
+  width: 250px;
+  height: 280px;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+.person-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 3;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.disc-position {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  height: 160px;
+  z-index: 2;
+}
+
+.disc-spin {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: spin 6s linear infinite;
+  animation-play-state: paused;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.disc-spin img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Sửa lỗi 1: Lỗ đĩa xuyên thấu và có bóng mờ tạo độ sâu */
+.disc-hole {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: transparent; /* Đổi thành trong suốt */
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.7); /* Thêm viền lõm 3D */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* --- THÔNG TIN VÀ LYRICS --- */
+.song-info {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.song-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.artist-name {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.lyric-box {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+#current-lyric {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* --- CONTROLS BAR --- */
+.controls-bar {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.control-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex; /* Giúp căn giữa icon SVG */
+  align-items: center;
+  justify-content: center;
+}
+.control-btn:hover {
+  transform: scale(1.1);
+}
+
+.progress-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#progress-bar {
+  width: 100%;
+  height: 4px;
+  /* -webkit-appearance: none; */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+#progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Sửa lỗi 2: Tăng độ sáng tương phản cho cụm thời gian */
+.time-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #eee; /* Nâng sáng từ #bbb lên #eee */
+  margin-top: 6px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Thêm đổ bóng mờ */
+}
+
+/* Sửa lỗi 2: Tăng độ sáng tương phản cho dòng Credit */
+.credit-text {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.75); /* Tăng độ đậm từ 0.5 lên 0.75 */
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Thêm đổ bóng mờ */
+}

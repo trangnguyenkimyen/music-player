@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinyl Face Music Player</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- BACKGROUND CHUYỂN ĐỘNG -->
+    <div class="animated-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Thẻ audio ẩn -->
+    <audio id="my-audio" src="all4nothing.mp3"></audio>
+
+    <div class="player-container glass">
+      <div class="art-composite">
+        <!-- Ảnh người -->
+        <img src="nguoi.png" alt="Person" class="person-img" />
+
+        <div class="disc-position">
+          <div class="disc-spin" id="disc-spin">
+            <img src="cover.jpg" alt="Cover Art" />
+            <div class="disc-hole"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="song-info">
+        <h2 class="song-title">All 4 Nothing</h2>
+        <p class="artist-name">Lauv</p>
+      </div>
+
+      <div class="lyric-box">
+        <p id="current-lyric">♪♪♪</p>
+      </div>
+
+      <div class="controls-bar glass-inner">
+        <!-- Đã thay đổi thành Icon SVG chuẩn -->
+        <button id="play-btn" class="control-btn">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </button>
+
+        <div class="progress-container">
+          <input type="range" id="progress-bar" value="0" max="100" />
+          <div class="time-info">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="credit-text">@spoti_ky</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
