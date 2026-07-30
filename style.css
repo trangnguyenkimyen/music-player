@@ -32,8 +32,6 @@ body {
   filter: blur(100px);
   opacity: 0.8;
   animation: floatOrb infinite alternate ease-in-out;
-
-  /* Tối ưu hiệu suất GPU */
   will-change: transform;
   transform: translateZ(0);
 }
@@ -89,8 +87,6 @@ body {
   -webkit-backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-
-  /* Tối ưu hiệu suất GPU mặt kính */
   will-change: backdrop-filter;
 }
 
@@ -217,13 +213,25 @@ body {
   color: #ffffff;
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
   transition: opacity 0.4s ease-in-out;
-
-  /* --- FIX LỖI CHỮ "BÓNG MA" TRÊN IPHONE/SAFARI --- */
   position: relative;
   z-index: 1;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   will-change: opacity, transform;
+
+  /* Tạo khoảng cách giữa 2 dòng song ngữ */
+  line-height: 1.4;
+}
+
+/* DÒNG DỊCH TIẾNG ANH */
+#current-lyric .trans {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 5px;
+  text-shadow: none;
 }
 
 /* --- CONTROLS BAR --- */
@@ -302,6 +310,12 @@ body {
 @media (max-width: 600px) {
   #current-lyric {
     font-size: 1.3rem;
+    word-break: break-word;
+    padding: 0 10px;
+  }
+
+  #current-lyric .trans {
+    font-size: 0.8rem;
   }
 
   .controls-bar {
@@ -313,7 +327,7 @@ body {
   }
 
   .orb {
-    filter: blur(80px); /* Giảm nhòe nhẹ trên thiết bị di động để chống lag */
+    filter: blur(80px);
   }
 
   .orb-1 {

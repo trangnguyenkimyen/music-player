@@ -25,14 +25,15 @@ const rawLrc = `
 [01:12.00]Your savage lo-lo-love
 [01:14.00]You could use me
 [01:17.00]'Cause I still want that
-[01:18.00]사랑이란 어쩌면 순간의 감정의 나열
-[01:21.00]조건이 다들 붙지 난 뭘 사랑하는가
-[01:25.00]영원이라는 말은 어쩌면 모래성
-[01:28.00]잔잔한 파도 앞에 힘없이 무너져
+[01:19.00]사랑이란 | Maybe love
+[01:20.00]어쩌면 순간의 감정의 나열 | is just a fleeting feeling
+[01:22.00]조건이 다들 붙지 난 뭘 사랑하는가 | With strings attached, what do I even love?
+[01:25.00]영원이라는 말은 어쩌면 모래성 | "Eternity" is just a sandcastle
+[01:28.50]잔잔한 파도 앞에 힘없이 무너져 | Washed away by a gentle wave
 [01:31.00]Every night, every day, I'm swept away by the waves
 [01:34.00]Don't know what I'm thinking (can't get you outta my head)
-[01:37.00]내가 두려운 게 그대이든 그때이든
-[01:41.00]불같이 사랑할래 그댈 지금
+[01:38.00]내가 두려운 게 그대이든 그때이든 | Whether I fear you or the moment
+[01:41.00]불같이 사랑할래 그댈 지금 | I'll love you like fire right now
 [01:45.00]Every night and every day
 [01:50.00]I try to make you stay but your
 [01:57.00]Savage love
@@ -117,12 +118,11 @@ progressBar.addEventListener("input", () => {
 });
 
 let currentActiveIndex = -1;
-let lastUpdateTime = 0; // Biến giới hạn fps thanh cuộn chống lag
+let lastUpdateTime = 0;
 
 audio.addEventListener("timeupdate", () => {
   const currentTime = audio.currentTime;
 
-  // 1. CHỐNG LAG THANH THỜI GIAN: Chỉ cập nhật giao diện 4 lần/giây thay vì liên tục
   if (Date.now() - lastUpdateTime > 250) {
     if (audio.duration) {
       progressBar.value = (currentTime / audio.duration) * 100;
@@ -131,7 +131,6 @@ audio.addEventListener("timeupdate", () => {
     lastUpdateTime = Date.now();
   }
 
-  // 2. CHẠY LỜI BÀI HÁT
   let activeIndex = -1;
   for (let i = 0; i < lyricsData.length; i++) {
     if (currentTime >= lyricsData[i].time) {
@@ -145,17 +144,25 @@ audio.addEventListener("timeupdate", () => {
     currentActiveIndex = activeIndex;
     currentLyricEl.style.opacity = 0;
 
-    // Yêu cầu trình duyệt lên lịch chuyển đổi khung hình tiếp theo (chống khựng chữ)
+    // Yêu cầu trình duyệt lên lịch chuyển đổi khung hình tiếp theo
     requestAnimationFrame(() => {
       setTimeout(() => {
-        currentLyricEl.innerText = lyricsData[activeIndex].text || "♪ ♪ ♪";
+        const rawText = lyricsData[activeIndex].text || "♪ ♪ ♪";
+        const parts = rawText.split(" | "); // Tách chuỗi
+
+        if (parts.length > 1) {
+          // Dùng innerHTML thay vì innerText để chèn thẻ HTML
+          currentLyricEl.innerHTML = `${parts[0]}<br><span class="trans">${parts[1]}</span>`;
+        } else {
+          currentLyricEl.innerHTML = rawText;
+        }
+
         currentLyricEl.style.opacity = 1;
       }, 200);
     });
   }
 });
 
-// Khi hết bài nhạc
 audio.addEventListener("ended", () => {
   playBtn.innerHTML = playIcon;
   progressBar.value = 0;
