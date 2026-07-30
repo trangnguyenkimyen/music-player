@@ -1,50 +1,62 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:05.00]I swear to God, when I come home
-[00:10.00]I'm gonna hold you so close
-[00:14.00]I swear to God, when I come home
-[00:16.00]I'll never let go
-[00:19.00]♪
-[00:22.00]Like a river, I flow
-[00:27.00]To the ocean I know
-[00:31.00]You pull me close
-[00:33.00]Guiding me home
-[00:38.00]And I need you to know that we're falling so fast
-[00:46.00]We're falling like the stars
-[00:50.00]Falling in love
-[00:55.00]And I'm not scared to say those words, with you, I'm safe
-[01:03.00]We're falling like the stars
-[01:07.00]We're falling in love
-[01:13.00]I swear to God, I can see
-[01:17.00]Four kids and no sleep
-[01:21.00]We'll have one on each knee
-[01:24.00]You and me, hmm
-[01:30.00]And when they've grown up
-[01:34.00]You're still the girl in the club
-[01:38.00]When I held your hair up
-[01:40.00]'Cause you had too much
-[01:46.00]And I need you to know that we're falling so fast
-[01:54.00]We're falling like the stars
-[01:57.00]Falling in love
-[02:03.00]And I'm not scared to say those words, with you, I'm safe
-[02:11.00]We're falling like the stars
-[02:14.00]Falling in love
-[02:20.00]I swear to God, every day
-[02:24.00]He won't take you away
-[02:29.00]'Cause without you, babe
-[02:31.00]I lose my way
-[02:35.00]Oh, I'm in love
-[02:37.00]Oh, I'm in love
-[02:39.00]Oh, I'm in love
-[02:44.00]Oh, I'm in love
-[02:46.00]Oh, I'm in love
-[02:48.00]Oh, I'm in love (falling like the stars)
-[02:53.00]And I need you to know that we're falling so fast
-[03:01.00]We're falling like the stars
-[03:05.00]Falling in love
-[03:10.00]And I'm not scared to say those words, with you, I'm safe
-[03:18.00]We're falling like the stars
-[03:21.00]We're falling in love
+[00:01.00]BTS
+[00:02.00]Savage love
+[00:04.00]Did somebody, did somebody break your heart?
+[00:07.00]Lookin' like an angel but your savage love
+[00:10.00]When you kiss me, I know you don't give two fucks
+[00:13.00]But I still want that
+[00:15.00]If I woke up without you, I don't know what I would do
+[00:18.00]Thought I could be single forever 'til I met you
+[00:21.00]Usually, don't be fallin', be fallin', fallin' fast
+[00:24.00]You got a way of keepin' me comin' back-to-back
+[00:28.00]I just found out the only reason that you lovin' me
+[00:31.00]Was to get back at your ex-lover, but before you leave
+[00:34.00]Usually, I would never, would never even care
+[00:37.00]Baby, I know she creepin', I feel it in the air
+[00:41.00]Every night and every day (and every day)
+[00:46.00]I try to make you stay but your
+[00:53.00]Savage love
+[00:55.00]Did somebody, did somebody break your heart?
+[00:58.00]Lookin' like an angel but your savage love
+[01:01.00]When you kiss me, I know you don't give two fucks
+[01:04.00]But I still want that, your savage love
+[01:09.00]Your savage lo-lo-love
+[01:12.00]Your savage lo-lo-love
+[01:14.00]You could use me
+[01:17.00]'Cause I still want that
+[01:27.00]사랑이란 어쩌면 순간의 감정의 나열
+[01:28.00]조건이 다들 붙지 난 뭘 사랑하는가
+[01:29.00]영원이라는 말은 어쩌면 모래성
+[01:29.00]잔잔한 파도 앞에 힘없이 무너져
+[01:32.00]Every night, every day, I'm swept away by the waves
+[01:35.00]Don't know what I'm thinking (can't get you outta my head)
+[01:43.00]내가 두려운 게 그대이든 그때이든
+[01:44.00]불같이 사랑할래 그댈 지금
+[01:45.00]Every night and every day
+[01:50.00]I try to make you stay but your
+[01:57.00]Savage love
+[01:59.00]Did somebody, did somebody break your heart?
+[02:02.00]Lookin' like an angel but your savage love
+[02:05.00]When you kiss me, I know you don't give two fucks
+[02:08.00]But I still want that, your savage love
+[02:13.00]Your savage lo-lo-love
+[02:16.00]Your savage lo-lo-love
+[02:18.00]You could use me
+[02:21.00]'Cause I still want that, your savage love
+[02:23.00](Ooh-la-la-la, ooh-la-la-la)
+[02:25.00]Your savage lo-lo-love (ooh-la-la-la, ooh-la-la-la)
+[02:29.00]Your savage lo-lo-love (ooh-la-la-la, ooh-la-la-la)
+[02:31.00]You could use me, baby (ooh, la-la-la-la)
+[02:35.00]Savage love
+[02:37.00]Did somebody, did somebody break your heart?
+[02:40.00]Lookin' like an angel but your savage love
+[02:43.00]When you kiss me, I know you don't give two fucks
+[02:47.00]But I still want that, your savage love
+[02:51.00]Your savage lo-lo-love
+[02:54.00]Your savage lo-lo-love
+[02:57.00]You could use me
+[02:59.00]'Cause I still want that, your savage love
 `;
 
 function parseLrc(lrcString) {
