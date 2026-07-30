@@ -1,81 +1,50 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:07.00]I wish I was
-[00:11.00]Strong enough
-[00:14.00]To lift not one but
-[00:19.00]Both of us
-[00:22.00]Someday I will be
-[00:26.00]Strong enough
-[00:29.00]To lift not one but
-[00:34.00]Both of us (uh)
-[00:38.00]Ever thought about losing it?
-[00:40.00]When your money is all gone and you lose your whip (ooh-ooh)
-[00:42.00]You might lose your grip
-[00:43.00]When the landlord tell you that you're due for rent
-[00:45.00]And the grass so green on the other side
-[00:46.00]Make a nigga wanna run straight through the fence
-[00:49.00]Open up the fridge about 20 times (ooh-ooh)
-[00:50.00]But still can't find no food in it, that's foolishness
-[00:54.00]And sometimes I wonder
-[00:55.00]Why we care so much about the way we look (ooh-ooh)
-[00:57.00]And the way we talk, and the way we act
-[00:59.00]And the clothes we bought, how much that cost?
-[01:01.00]Does it even really matter?
-[01:03.00]'Cause if life is an uphill battle (ooh-ooh)
-[01:04.00]We all try to climb on the same old ladder
-[01:06.00]In the same boat with the same old paddle
-[01:08.00]Why so shallow? I'm just asking
-[01:10.00]What's the pattern to the madness? (Ooh-ooh)
-[01:12.00]Everybody in a #1 draft pick
-[01:14.00]Most of us ain't Hollywood actors
-[01:16.00]But if it's all for one, and one for all
-[01:18.00]Then maybe one day we all can ball (ooh-ooh)
-[01:20.00]Do it one time for the underdogs
-[01:22.00]Sincerely yours, from one of y'all
-[01:24.00]I wish I was
-[01:28.00]Strong enough to
-[01:32.00]Lift not one but
-[01:35.00]Both of us
-[01:39.00]Someday I will be
-[01:43.00]Strong enough to
-[01:47.00]Lift not one but
-[01:51.00]Both of us
-[01:55.00]I can feel your pain
-[01:57.00]I can feel your struggle (ooh-ooh)
-[01:58.00]You just want to live, but everything so low
-[02:01.00]That you can drown in the puddle
-[02:02.00]That's why I gotta hold us up, yeah, hold us up
-[02:04.00]For all the times no one ever spoke for us (ooh-ooh)
-[02:06.00]To every single time that they play this song
-[02:08.00]You can say that, "That's what Bobby Ray wrote for us"
-[02:10.00]When the tides get too high
-[02:11.00]And the sea up underneath get so deep (ooh-ooh)
-[02:13.00]And you feel like you're just another person
-[02:15.00]Getting lost in the crowd, way up high in the nosebleeds, uh
-[02:18.00]Because we've both been there, yeah, both of us
-[02:20.00]But we still stand tall, with our shoulders up (ooh-ooh)
-[02:22.00]And even though we always against the odds
-[02:24.00]These are the things that have molded us
-[02:25.00]And if life hadn't chosen us
-[02:27.00]Sometimes I wonder where I would have wound up
-[02:28.00]'Cause if it was up to me
-[02:30.00]I'd make a new blueprint then build it from the ground up
-[02:32.00]Hey, but if it's all for one and one for all
-[02:35.00]Then maybe one day we all could ball
-[02:37.00]Do it one time for the underdogs
-[02:39.00]From Bobby Ray to all of y'all
-[02:41.00]I wish I was
-[02:44.00]Strong enough to
-[02:48.00]Lift not one but
-[02:52.00]Both of us
-[02:56.00]Someday I will be
-[03:00.00]Strong enough to
-[03:04.00]Lift not one but
-[03:08.00]Both of us
-[03:12.00]Ooh-ooh, ooh
-[03:16.00]Ooh-ooh
-[03:20.00]Ooh-ooh
-[03:24.00]Ooh-ooh
+[00:05.00]I swear to God, when I come home
+[00:10.00]I'm gonna hold you so close
+[00:14.00]I swear to God, when I come home
+[00:16.00]I'll never let go
+[00:19.00]♪
+[00:22.00]Like a river, I flow
+[00:27.00]To the ocean I know
+[00:31.00]You pull me close
+[00:33.00]Guiding me home
+[00:38.00]And I need you to know that we're falling so fast
+[00:46.00]We're falling like the stars
+[00:50.00]Falling in love
+[00:55.00]And I'm not scared to say those words, with you, I'm safe
+[01:03.00]We're falling like the stars
+[01:07.00]We're falling in love
+[01:13.00]I swear to God, I can see
+[01:17.00]Four kids and no sleep
+[01:21.00]We'll have one on each knee
+[01:24.00]You and me, hmm
+[01:30.00]And when they've grown up
+[01:34.00]You're still the girl in the club
+[01:38.00]When I held your hair up
+[01:40.00]'Cause you had too much
+[01:46.00]And I need you to know that we're falling so fast
+[01:54.00]We're falling like the stars
+[01:57.00]Falling in love
+[02:03.00]And I'm not scared to say those words, with you, I'm safe
+[02:11.00]We're falling like the stars
+[02:14.00]Falling in love
+[02:20.00]I swear to God, every day
+[02:24.00]He won't take you away
+[02:29.00]'Cause without you, babe
+[02:31.00]I lose my way
+[02:35.00]Oh, I'm in love
+[02:37.00]Oh, I'm in love
+[02:39.00]Oh, I'm in love
+[02:44.00]Oh, I'm in love
+[02:46.00]Oh, I'm in love
+[02:48.00]Oh, I'm in love (falling like the stars)
+[02:53.00]And I need you to know that we're falling so fast
+[03:01.00]We're falling like the stars
+[03:05.00]Falling in love
+[03:10.00]And I'm not scared to say those words, with you, I'm safe
+[03:18.00]We're falling like the stars
+[03:21.00]We're falling in love
 `;
 
 function parseLrc(lrcString) {
