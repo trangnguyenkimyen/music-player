@@ -25,14 +25,14 @@ const rawLrc = `
 [01:12.00]Your savage lo-lo-love
 [01:14.00]You could use me
 [01:17.00]'Cause I still want that
-[01:27.00]사랑이란 어쩌면 순간의 감정의 나열
-[01:28.00]조건이 다들 붙지 난 뭘 사랑하는가
-[01:29.00]영원이라는 말은 어쩌면 모래성
-[01:29.00]잔잔한 파도 앞에 힘없이 무너져
-[01:32.00]Every night, every day, I'm swept away by the waves
-[01:35.00]Don't know what I'm thinking (can't get you outta my head)
-[01:43.00]내가 두려운 게 그대이든 그때이든
-[01:44.00]불같이 사랑할래 그댈 지금
+[01:18.00]사랑이란 어쩌면 순간의 감정의 나열
+[01:21.00]조건이 다들 붙지 난 뭘 사랑하는가
+[01:25.00]영원이라는 말은 어쩌면 모래성
+[01:28.00]잔잔한 파도 앞에 힘없이 무너져
+[01:31.00]Every night, every day, I'm swept away by the waves
+[01:34.00]Don't know what I'm thinking (can't get you outta my head)
+[01:37.00]내가 두려운 게 그대이든 그때이든
+[01:41.00]불같이 사랑할래 그댈 지금
 [01:45.00]Every night and every day
 [01:50.00]I try to make you stay but your
 [01:57.00]Savage love
