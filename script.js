@@ -1,63 +1,74 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:01.00]BTS
-[00:02.00]Savage love
-[00:04.00]Did somebody, did somebody break your heart?
-[00:07.00]Lookin' like an angel but your savage love
-[00:10.00]When you kiss me, I know you don't give two fucks
-[00:13.00]But I still want that
-[00:15.00]If I woke up without you, I don't know what I would do
-[00:18.00]Thought I could be single forever 'til I met you
-[00:21.00]Usually, don't be fallin', be fallin', fallin' fast
-[00:24.00]You got a way of keepin' me comin' back-to-back
-[00:28.00]I just found out the only reason that you lovin' me
-[00:31.00]Was to get back at your ex-lover, but before you leave
-[00:34.00]Usually, I would never, would never even care
-[00:37.00]Baby, I know she creepin', I feel it in the air
-[00:41.00]Every night and every day (and every day)
-[00:46.00]I try to make you stay but your
-[00:53.00]Savage love
-[00:55.00]Did somebody, did somebody break your heart?
-[00:58.00]Lookin' like an angel but your savage love
-[01:01.00]When you kiss me, I know you don't give two fucks
-[01:04.00]But I still want that, your savage love
-[01:09.00]Your savage lo-lo-love
-[01:12.00]Your savage lo-lo-love
-[01:14.00]You could use me
-[01:17.00]'Cause I still want that
-[01:19.00]사랑이란 | Maybe love
-[01:20.00]어쩌면 순간의 감정의 나열 | is just a fleeting feeling
-[01:22.00]조건이 다들 붙지 난 뭘 사랑하는가 | With strings attached, what do I even love?
-[01:25.00]영원이라는 말은 어쩌면 모래성 | "Eternity" is just a sandcastle
-[01:28.50]잔잔한 파도 앞에 힘없이 무너져 | Washed away by a gentle wave
-[01:32.00]Every night, every day, I'm swept away by the waves
-[01:35.00]Don't know what I'm thinking (can't get you outta my head)
-[01:39.00]내가 두려운 게 그대이든 그때이든 | Whether I fear you or the moment
-[01:41.00]불같이 사랑할래 그댈 지금 | I'll love you like fire right now
-[01:45.00]Every night and every day
-[01:50.00]I try to make you stay but your
-[01:57.00]Savage love
-[01:59.00]Did somebody, did somebody break your heart?
-[02:02.00]Lookin' like an angel but your savage love
-[02:05.00]When you kiss me, I know you don't give two fucks
-[02:08.00]But I still want that, your savage love
-[02:13.00]Your savage lo-lo-love
-[02:16.00]Your savage lo-lo-love
-[02:18.00]You could use me
-[02:21.00]'Cause I still want that, your savage love
-[02:23.00](Ooh-la-la-la, ooh-la-la-la)
-[02:25.00]Your savage lo-lo-love (ooh-la-la-la, ooh-la-la-la)
-[02:29.00]Your savage lo-lo-love (ooh-la-la-la, ooh-la-la-la)
-[02:31.00]You could use me, baby (ooh, la-la-la-la)
-[02:35.00]Savage love
-[02:37.00]Did somebody, did somebody break your heart?
-[02:40.00]Lookin' like an angel but your savage love
-[02:43.00]When you kiss me, I know you don't give two fucks
-[02:47.00]But I still want that, your savage love
-[02:51.00]Your savage lo-lo-love
-[02:54.00]Your savage lo-lo-love
-[02:57.00]You could use me
-[02:59.00]'Cause I still want that, your savage love
+[00:11.00]느껴봐, something in the air tonight | Feel it, something in the air tonight
+[00:17.00]빛이 나 다신 오지 않을 이 순간 | Shining bright, this moment won't come again
+[00:23.00]붙잡고 애써봐야, time is passing by | Even if you hold on tight, time is passing by
+[00:29.00]Let it go, we gon' lose the track of time
+[00:35.00]Put your hands up, party
+[00:37.00]해 뜰 때까지 다 move, body, body | 'Til the sun comes up, everybody move, body, body
+[00:41.00]ALLDAY, better make some room
+[00:42.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
+[00:45.00]ready to go, yah, yah-yah-yah
+[00:48.00]뜨겁게 더 risin' | Getting hotter, risin'
+[00:50.00]Heat it up, 가빠지는 숨, everybody | Heat it up, breathing gets heavy, everybody
+[00:52.00]ALLDAY, better make some room
+[00:54.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
+[00:57.00]ready to go, yah, yah-yah-yah
+[01:00.00]One more time, wanna get lost in the ni-ni-night
+[01:05.00]틀어줘, song that I li-li-like | play the song that I li-li-like
+[01:08.00]Come on, just dance with me now, dance with me now
+[01:12.00]미쳐봐, 마지막인 것처럼 one last time | Go crazy, like it's the last time, one last time
+[01:17.00]finally here, I'm ali-li-live
+[01:20.00]Come on, just dance with me now, dance with me now
+[01:23.00](what's up, pretty?)
+[01:24.00]I found you looking for a man in your life (life)
+[01:26.00]you told me love's a drug (drug)
+[01:27.50]I'm pickin' you up, we 'bout to get drunk,
+[01:29.00]let me cater to you tonight (tonight)
+[01:30.50]See you in my frame, this Cartier can't handle you,
+[01:32.50]'cause your light is too bright
+[01:33.50]하면 하는 내 성격은 impulsive, | I go all in, I'm impulsive
+[01:34.50]verse가 끝나기도 전에, | even before the verse ends,
+[01:35.50]we're dancing in the light
+[01:36.50]Like this, swing it left to right,
+[01:37.50]우린 합을 맞추지 | we're perfectly in sync
+[01:39.00]She call me papi, yeah, I like it,
+[01:40.00]할래 너와 나쁜 짓 | wanna do bad things with you
+[01:42.00]We're too legit,
+[01:43.00]보고 배워, 우리 둘의 fit (yeah) | watch and learn, our fit (yeah)
+[01:44.50]They can't counterfeit,
+[01:45.50]어딜 가든 튀지, 미친 시너지 | standing out everywhere, crazy synergy
+[01:48.00]Put your hands up, party
+[01:49.00]해 뜰 때까지 다 move, body, body | 'Til the sun comes up, everybody move, body, body
+[01:52.00]ALLDAY, better make some room
+[01:54.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
+[01:57.00]ready to go, yah, yah-yah-yah
+[01:59.00]뜨겁게 더 risin' | Getting hotter, risin'
+[02:01.00]Heat it up, 가빠지는 숨, everybody | Heat it up, breathing gets heavy, everybody
+[02:04.50]ALLDAY, better make some room
+[02:06.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
+[02:09.00]ready to go, yah, yah-yah-yah
+[02:12.00]One more time, wanna get lost in the ni-ni-night
+[02:17.00]틀어줘, song that I li-li-like | play the song that I li-li-like
+[02:20.00]Come on, just dance with me now, dance with me now
+[02:24.00]미쳐봐, 마지막인 것처럼 one last time | Go crazy, like it's the last time, one last time
+[02:29.00]finally here, I'm ali-li-live
+[02:32.00]Come on, just dance with me now, dance with me now
+[02:35.00]On replay (replay)
+[02:37.00]Baby, play it one more time, I might just stay, yeah (stay, yeah)
+[02:40.00]눈빛으로 말해, ain't gotta say it | Say it with your eyes, ain't gotta say it
+[02:43.00]Feel the tide, yeah (tide)
+[02:45.00]파도 위에 | riding the waves
+[02:46.00](wait, you sure you could keep up?)
+[02:48.00]One more time, one more time
+[02:50.00]One more time to the ni-ni-night
+[02:54.00]Song that I li-li-like
+[02:56.00]Come on, come on, dance with me now, dance
+[02:58.00](you sure you could keep up?)
+[03:00.00]One more time, one more time
+[03:02.00]One more time to the ni-ni-night
+[03:06.00]Song that I li-li-like
+[03:08.00]Come on, come on, dance with me now, dance with me now
 `;
 
 function parseLrc(lrcString) {
