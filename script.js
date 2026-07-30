@@ -30,9 +30,9 @@ const rawLrc = `
 [01:22.00]조건이 다들 붙지 난 뭘 사랑하는가 | With strings attached, what do I even love?
 [01:25.00]영원이라는 말은 어쩌면 모래성 | "Eternity" is just a sandcastle
 [01:28.50]잔잔한 파도 앞에 힘없이 무너져 | Washed away by a gentle wave
-[01:31.00]Every night, every day, I'm swept away by the waves
-[01:34.00]Don't know what I'm thinking (can't get you outta my head)
-[01:38.00]내가 두려운 게 그대이든 그때이든 | Whether I fear you or the moment
+[01:32.00]Every night, every day, I'm swept away by the waves
+[01:35.00]Don't know what I'm thinking (can't get you outta my head)
+[01:39.00]내가 두려운 게 그대이든 그때이든 | Whether I fear you or the moment
 [01:41.00]불같이 사랑할래 그댈 지금 | I'll love you like fire right now
 [01:45.00]Every night and every day
 [01:50.00]I try to make you stay but your
