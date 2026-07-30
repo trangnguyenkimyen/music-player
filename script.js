@@ -1,58 +1,81 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:10.988] Hey, you there
-[00:14.725] Can we take it to the next level,
-[00:18.189] baby, do you dare?
-[00:20.327] Don't be scared
-[00:24.124] 'Cause if you can say the words,
-[00:26.932] I don't know why I should care
-[00:29.582] 'Cause here I am,
-[00:31.048] I'm givin' all I can
-[00:33.657] But all you ever do is mess it up
-[00:38.471] Yeah, I'm right here,
-[00:40.797] I'm tryin' to make it clear
-[00:43.025] That getting half of you just ain't enough
-[00:47.492] I'm not going to wait until you're done
-[00:51.816] Pretending you don't need anyone
-[00:56.277] I'm standing here naked (naked, naked)
-[01:01.341] I'm standing here naked (naked, naked)
-[01:06.076] I'm not gonna try 'til you decide
-[01:10.827] You're ready to swallow all your pride
-[01:15.004] I'm standing here naked (naked, naked)
-[01:20.046] I'm standing here naked (naked, naked)
-[01:26.309] Hey, get out
-[01:29.920] I've got nothin' left to give for you give me nothin' now
-[01:35.306] Read my mouth
-[01:39.503] If you ever want me back,
-[01:42.134] then your walls need breakin' down
-[01:44.653] 'Cause here I am, I'm givin' all I can
-[01:48.967] But all you ever do is mess it up
-[01:52.874] (all you ever do is mess it up)
-[01:54.514] Yeah, I'm right here,
-[01:56.059] I'm tryin' to make it clear
-[01:58.350] getting half of you just ain't enough
-[02:02.058] I'm not going to wait until you're done
-[02:06.848] Pretending you don't need anyone
-[02:11.488] I'm standing here naked (naked, naked)
-[02:16.762] I'm standing here naked (naked, naked)
-[02:21.278] I'm not gonna try 'til you decide
-[02:25.621] You're ready to swallow all your pride
-[02:30.419] I'm standing here naked (naked, naked)
-[02:35.434] I'm standing here naked (naked, naked)
-[02:41.245] I wanna give you everything
-[02:43.938] I wanna give you everything
-[02:51.185] I wanna give you everything
-[02:53.339] I wanna give you everything
-[02:59.238] I'm not going to wait until you're gone
-[03:03.251] 'Cause you pretended you don't need anyone
-[03:08.035] 'Can you see that I'm naked (naked, naked)
-[03:13.079] Oh, you see that I'm naked (naked, naked)
-[03:17.909] I'm not going to try 'til you decide
-[03:22.383] You're ready to swallow all your pride
-[03:26.850] I'm standing here naked (naked, naked)
-[03:32.635] I'm standing here naked (I'm standing) (naked, naked)
-[03:39.995] I'm standing
-[03:42.361] I'm standing here
+[00:07.00]I wish I was
+[00:11.00]Strong enough
+[00:14.00]To lift not one but
+[00:19.00]Both of us
+[00:22.00]Someday I will be
+[00:26.00]Strong enough
+[00:29.00]To lift not one but
+[00:34.00]Both of us (uh)
+[00:38.00]Ever thought about losing it?
+[00:40.00]When your money is all gone and you lose your whip (ooh-ooh)
+[00:42.00]You might lose your grip
+[00:43.00]When the landlord tell you that you're due for rent
+[00:45.00]And the grass so green on the other side
+[00:46.00]Make a nigga wanna run straight through the fence
+[00:49.00]Open up the fridge about 20 times (ooh-ooh)
+[00:50.00]But still can't find no food in it, that's foolishness
+[00:54.00]And sometimes I wonder
+[00:55.00]Why we care so much about the way we look (ooh-ooh)
+[00:57.00]And the way we talk, and the way we act
+[00:59.00]And the clothes we bought, how much that cost?
+[01:01.00]Does it even really matter?
+[01:03.00]'Cause if life is an uphill battle (ooh-ooh)
+[01:04.00]We all try to climb on the same old ladder
+[01:06.00]In the same boat with the same old paddle
+[01:08.00]Why so shallow? I'm just asking
+[01:10.00]What's the pattern to the madness? (Ooh-ooh)
+[01:12.00]Everybody in a #1 draft pick
+[01:14.00]Most of us ain't Hollywood actors
+[01:16.00]But if it's all for one, and one for all
+[01:18.00]Then maybe one day we all can ball (ooh-ooh)
+[01:20.00]Do it one time for the underdogs
+[01:22.00]Sincerely yours, from one of y'all
+[01:24.00]I wish I was
+[01:28.00]Strong enough to
+[01:32.00]Lift not one but
+[01:35.00]Both of us
+[01:39.00]Someday I will be
+[01:43.00]Strong enough to
+[01:47.00]Lift not one but
+[01:51.00]Both of us
+[01:55.00]I can feel your pain
+[01:57.00]I can feel your struggle (ooh-ooh)
+[01:58.00]You just want to live, but everything so low
+[02:01.00]That you can drown in the puddle
+[02:02.00]That's why I gotta hold us up, yeah, hold us up
+[02:04.00]For all the times no one ever spoke for us (ooh-ooh)
+[02:06.00]To every single time that they play this song
+[02:08.00]You can say that, "That's what Bobby Ray wrote for us"
+[02:10.00]When the tides get too high
+[02:11.00]And the sea up underneath get so deep (ooh-ooh)
+[02:13.00]And you feel like you're just another person
+[02:15.00]Getting lost in the crowd, way up high in the nosebleeds, uh
+[02:18.00]Because we've both been there, yeah, both of us
+[02:20.00]But we still stand tall, with our shoulders up (ooh-ooh)
+[02:22.00]And even though we always against the odds
+[02:24.00]These are the things that have molded us
+[02:25.00]And if life hadn't chosen us
+[02:27.00]Sometimes I wonder where I would have wound up
+[02:28.00]'Cause if it was up to me
+[02:30.00]I'd make a new blueprint then build it from the ground up
+[02:32.00]Hey, but if it's all for one and one for all
+[02:35.00]Then maybe one day we all could ball
+[02:37.00]Do it one time for the underdogs
+[02:39.00]From Bobby Ray to all of y'all
+[02:41.00]I wish I was
+[02:44.00]Strong enough to
+[02:48.00]Lift not one but
+[02:52.00]Both of us
+[02:56.00]Someday I will be
+[03:00.00]Strong enough to
+[03:04.00]Lift not one but
+[03:08.00]Both of us
+[03:12.00]Ooh-ooh, ooh
+[03:16.00]Ooh-ooh
+[03:20.00]Ooh-ooh
+[03:24.00]Ooh-ooh
 `;
 
 function parseLrc(lrcString) {
