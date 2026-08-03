@@ -1,74 +1,81 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:11.00]느껴봐, something in the air tonight | Feel it, something in the air tonight
-[00:17.00]빛이 나 다신 오지 않을 이 순간 | Shining bright, this moment won't come again
-[00:23.00]붙잡고 애써봐야, time is passing by | Even if you hold on tight, time is passing by
-[00:29.00]Let it go, we gon' lose the track of time
-[00:35.00]Put your hands up, party
-[00:37.00]해 뜰 때까지 다 move, body, body | 'Til the sun comes up, everybody move, body, body
-[00:41.00]ALLDAY, better make some room
-[00:42.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
-[00:45.00]ready to go, yah, yah-yah-yah
-[00:48.00]뜨겁게 더 risin' | Getting hotter, risin'
-[00:50.00]Heat it up, 가빠지는 숨, everybody | Heat it up, breathing gets heavy, everybody
-[00:52.00]ALLDAY, better make some room
-[00:54.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
-[00:57.00]ready to go, yah, yah-yah-yah
-[01:00.00]One more time, wanna get lost in the ni-ni-night
-[01:05.00]틀어줘, song that I li-li-like | play the song that I li-li-like
-[01:08.00]Come on, just dance with me now, dance with me now
-[01:12.00]미쳐봐, 마지막인 것처럼 one last time | Go crazy, like it's the last time, one last time
-[01:17.00]finally here, I'm ali-li-live
-[01:20.00]Come on, just dance with me now, dance with me now
-[01:23.00](what's up, pretty?)
-[01:24.00]I found you looking for a man in your life (life)
-[01:26.00]you told me love's a drug (drug)
-[01:27.50]I'm pickin' you up, we 'bout to get drunk,
-[01:29.00]let me cater to you tonight (tonight)
-[01:30.50]See you in my frame, this Cartier can't handle you,
-[01:32.50]'cause your light is too bright
-[01:33.50]하면 하는 내 성격은 impulsive, | I go all in, I'm impulsive
-[01:34.50]verse가 끝나기도 전에, | even before the verse ends,
-[01:35.50]we're dancing in the light
-[01:36.50]Like this, swing it left to right,
-[01:37.50]우린 합을 맞추지 | we're perfectly in sync
-[01:39.00]She call me papi, yeah, I like it,
-[01:40.00]할래 너와 나쁜 짓 | wanna do bad things with you
-[01:42.00]We're too legit,
-[01:43.00]보고 배워, 우리 둘의 fit (yeah) | watch and learn, our fit (yeah)
-[01:44.50]They can't counterfeit,
-[01:45.50]어딜 가든 튀지, 미친 시너지 | standing out everywhere, crazy synergy
-[01:48.00]Put your hands up, party
-[01:49.00]해 뜰 때까지 다 move, body, body | 'Til the sun comes up, everybody move, body, body
-[01:52.00]ALLDAY, better make some room
-[01:54.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
-[01:57.00]ready to go, yah, yah-yah-yah
-[01:59.00]뜨겁게 더 risin' | Getting hotter, risin'
-[02:01.00]Heat it up, 가빠지는 숨, everybody | Heat it up, breathing gets heavy, everybody
-[02:04.50]ALLDAY, better make some room
-[02:06.00]여기로 모여, that roller coaster | Gather 'round, that roller coaster
-[02:09.00]ready to go, yah, yah-yah-yah
-[02:12.00]One more time, wanna get lost in the ni-ni-night
-[02:17.00]틀어줘, song that I li-li-like | play the song that I li-li-like
-[02:20.00]Come on, just dance with me now, dance with me now
-[02:24.00]미쳐봐, 마지막인 것처럼 one last time | Go crazy, like it's the last time, one last time
-[02:29.00]finally here, I'm ali-li-live
-[02:32.00]Come on, just dance with me now, dance with me now
-[02:35.00]On replay (replay)
-[02:37.00]Baby, play it one more time, I might just stay, yeah (stay, yeah)
-[02:40.00]눈빛으로 말해, ain't gotta say it | Say it with your eyes, ain't gotta say it
-[02:43.00]Feel the tide, yeah (tide)
-[02:45.00]파도 위에 | riding the waves
-[02:46.00](wait, you sure you could keep up?)
-[02:48.00]One more time, one more time
-[02:50.00]One more time to the ni-ni-night
-[02:54.00]Song that I li-li-like
-[02:56.00]Come on, come on, dance with me now, dance
-[02:58.00](you sure you could keep up?)
-[03:00.00]One more time, one more time
-[03:02.00]One more time to the ni-ni-night
-[03:06.00]Song that I li-li-like
-[03:08.00]Come on, come on, dance with me now, dance with me now
+[00:15.00]Flower field, that's where I'm at (where I'm at)
+[00:18.00]Open land, that's where I'm at (where I'm at)
+[00:21.00]No name, that's what I have (what I have)
+[00:24.00]No shame, I'm on my grave, yo
+[00:27.00]두 발이 땅에 닿지 않을 때 | When my two feet don't touch the ground
+[00:29.00]당신의 마음이 당신을 넘볼 때 | When your own heart threatens to overtake you
+[00:33.00]꿈이 나를 집어삼킬 때 | When dreams swallow me whole
+[00:35.00]내가, 내가 아닐 때, 그 모든 때, yeah | When I'm not myself, all those times, yeah
+[00:39.00]불꽃을 나는 동경했었네 | I used to long for the flames
+[00:42.00]그저 화려하게 지고 싶었네 | I just wanted to fall beautifully
+[00:45.00]시작의 전부터 나 상상했었지 | Even before the start, I had imagined it
+[00:48.00]끝엔 웃으며 박수 쳐 줄 수 있길 | Hoping I could smile and applaud at the end
+[00:51.00]나 소원했었네 | I had wished for it
+[00:52.00]믿었던 게 다 멀어지던 때 | when everything I believed in faded away
+[00:55.00]이 모든 명예가 이젠 멍에가 됐을 때 | When all this honor became a yoke
+[00:58.00]이 욕심을 제발 거둬가소서 | Please take away this greed
+[01:00.00]어떤 일이 있어도 | no matter what happens
+[01:02.00]Oh, 나를 나로 하게 하소서 | Oh, let me just be me
+[01:04.00]Oh, everyday and every night (yeah)
+[01:07.00]Persistin' pain and criminal mind (yeah)
+[01:10.00]내 심장소리에 잠 못 들던 밤 | Nights I couldn't sleep because of the sound of my heart
+[01:12.00]창밖에 걸린 청승맞은 초승달 | The sorrowful crescent moon hanging outside the window
+[01:16.00]I do wish me a lovely night (yeah)
+[01:18.00]내 분수보다 비대해진 life (yeah) | A life that grew bigger than I deserved (yeah)
+[01:21.00]저기 날아오르는 풍선을 애써 쥐고 | Struggling to hold onto the balloon flying away over there
+[01:24.00]따져 물어, 대체 지금 넌 어디에? | Asking myself, where are you right now?
+[01:26.00]Where you go? Where's your soul?
+[01:28.00]Yo, where's your dream?
+[01:28.00]저 하늘에 흩어질래 (ooh-ooh) | I want to scatter in that sky (ooh-ooh)
+[01:34.00]Light a flower, flowerwork, flower, flowerwork
+[01:40.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
+[01:47.00]Light a flower, flowerwork, flower, flowerwork
+[01:53.00]그 어디까지가 내 마지막일까? | Where exactly is my end?
+[01:56.00]전부 진저리 나, 하나 열까지 다 | I'm sick of it all, from one to ten
+[01:59.00]이 지긋지긋한 가면은 언제 벗겨질까? | When will this damn mask come off?
+[02:02.00]Yeah, me no hero, me no villain
+[02:03.50]아무것도 아닌 나 | I am nothing
+[02:06.00]공회전은 반복돼, 기억들은 난폭해 | Idling repeats, memories turn violent
+[02:09.00]난 누워 들판 속에, 시선을 던져 하늘 위에 | I lie in the field, throw my gaze to the sky
+[02:12.00]뭘 원했었던 건지? 이제 기억이 안 나 | What was it I wanted? I can't remember anymore
+[02:15.00]얻었다 믿었던 모든 행복은 겨우 찰나 | All the happiness I thought I got was just fleeting
+[02:18.00]Yeah, I been goin', no matter what's in front, 그게 뭐가 됐건 | Yeah, I been goin', no matter what's in front, whatever it is
+[02:21.00]새벽의 옷자락을 붙잡고 뭔가 토해내던 기억 | Memories of holding onto the edge of dawn and throwing up something
+[02:24.00]목소리만 큰 자들의 사회, 난 여전히 침묵을 말해 | A society of loud mouths, I still speak in silence
+[02:28.00]이건 방백, 완숙한 돛단배, 모든 오해 편견들에 닿게 | This is a monologue, a fully matured sailboat, reaching all misunderstandings and prejudices
+[02:31.00]반갑지 않아, 너의 헹가래 | Your tossing me in the air is not welcome
+[02:32.00]내 두 발이 여기 땅 위에 (ayy) | My two feet are here on the ground (ayy)
+[02:34.00]이름도 없는 꽃들과 함께 | Together with the nameless flowers
+[02:35.00]다신 별에 갈 수 없어, I can't | I can't go to the stars again, I can't
+[02:37.00]발밑으로, I just go, 목적 없는 목적지로 | Under my feet, I just go, to a destination without purpose
+[02:40.00]슬픈 줄도 모르고, 그림자마저 친구로, I be gone | Not even knowing it's sad, with even shadows as friends, I be gone
+[02:42.00]저 하늘에 흩어질래 (ooh-ooh) | I want to scatter in that sky (ooh-ooh)
+[02:49.00]Light a flower, flowerwork, flower, flowerwork
+[02:55.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
+[03:01.00]Light a flower, flowerwork, flower, flowerwork
+[03:08.00]문득 멈춰보니 찬란한 맨발 | Suddenly stopping, I see my radiant bare feet
+[03:11.00]원래 내 것은 아무것도 없었지 (that's right) | Nothing was ever mine to begin with (that's right)
+[03:14.00]And don't tell me like you gotta be someone
+[03:17.00]난 절대 그들처럼 될 수 없으니 (light a flower) | Because I can never be like them (light a flower)
+[03:21.00]그래, 내 시작은 시 | Yeah, my beginning was poetry
+[03:23.00]여태껏 날 지켜온 단 하나의 힘과 dream (light a flower) | The only strength and dream that protected me so far (light a flower)
+[03:26.00]타는 불꽃에서 들꽃으로, 소년에서 영원으로 | From a burning flame to a wildflower, from a boy to eternity
+[03:30.00]나 이 황량한 들에 남으리 | I will remain in this desolate field
+[03:32.00]Ah, 언젠가 나 되돌아가리 | Ah, someday I will return
+[03:35.00]저 하늘에 흩어질래 | I want to scatter in that sky
+[03:41.00]Light a flower, flowerwork, flower, flowerwork
+[03:47.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
+[03:54.00]Light a flower, flowerwork, flower, flowerwork
+[04:01.00]Flower field, that's where I'm at (where I'm at)
+[04:04.00]Open land, that's where I'm at (where I'm at, la-la-la-la-la-la-la-la)
+[04:07.00]No name, that's what I have (what I have)
+[04:10.00]No shame, I'm on my grave, yo (la-la-la-la-la-la-la-la)
+[04:13.00]두 발이 땅에 닿지 않을 때 (두 발이 땅에 닿지 않을 때) | When my two feet don't touch the ground (when my two feet don't touch the ground)
+[04:16.00]당신의 마음이 당신을 넘볼 때 (당신의 마음이 당신을 넘볼 때, la-la-la-la-la-la-la-la-la-la) | When your own heart threatens to overtake you (when your own heart threatens to overtake you, la-la-la-la-la-la-la-la-la-la)
+[04:19.00]꿈이 나를 집어삼킬 때, 내가 내가 아닌 때 | When dreams swallow me whole, when I am not myself
+[04:23.00]그 모든 때, yeah (la-la-la) | All those times, yeah (la-la-la)
 `;
 
 function parseLrc(lrcString) {
