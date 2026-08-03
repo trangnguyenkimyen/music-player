@@ -1,75 +1,68 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:09.00]시작은 뭐 즐거웠었네 | The beginning was quite fun
-[00:14.00]오르락내리락 그 자체로 | Going up and down, just like that
-[00:18.00]어느새 서로 지쳐버렸네 | Before we knew it, we both got tired
-[00:23.00]의미 없는 감정소모에 | From this meaningless emotional drain
-[00:26.00]반복된 시소 시소게임 | A repeating seesaw, seesaw game
-[00:31.00]이쯤 되니 지겨워 지겨워 졌네 | By now, I'm sick and tired of it
-[00:35.00]반복된 시소 시소게임 | A repeating seesaw, seesaw game
-[00:40.00]우린 서로 지쳐서 지겨워 졌네 | We got tired of each other and sick of it
-[00:44.00]사소한 말다툼이 시작이었을까 | Was a petty argument the beginning?
-[00:46.00]내가 너보다 무거워졌었던 순간 | The moment I became heavier than you
-[00:49.00]애초에 평행은 존재한 적이 없기에 | Since parallel never existed in the first place
-[00:51.00]더욱이 욕심내서 맞추려 했을까 | Did we get greedy and try to force it?
-[00:53.00]사랑이었고 이게 사랑이란 단어의 자체면 | If it was love, and if this is what the word love means
-[00:56.00]굳이 반복해야 할 필요 있을까 | Is there really a need to repeat it?
-[00:58.00]서로 지쳤고 같은 카드를 쥐고 있는 듯해 | We're both tired and seem to hold the same card
-[01:00.00]그렇다면 뭐 | If so, well
-[01:03.00]All right 반복된 시소게임 | All right, a repeating seesaw game
-[01:07.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
-[01:12.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
-[01:16.00]누군간 여기서 내려야 돼 | Someone has to get off here
-[01:20.00]할 순 없지만 | Even though we can't
-[01:22.00]누가 내릴지 말진 서로 눈치 말고 | Let's not read each other's minds on who gets off
-[01:26.00]그저 맘 가는 대로 질질 끌지 말고 | Let's not drag it out, just follow our hearts
-[01:30.00]이젠 내릴지 말지 끝을 내보자고 | Let's put an end to whether we get off or not
-[01:34.00]반복되는 시소게임 | A repeating seesaw game
-[01:38.00]이젠 그만해 | Stop it now
-[01:39.00]사람이 참 간사하긴 하지 | Humans are truly so cunning
-[01:41.00]한 명이 없음 다칠 걸 알면서 | Knowing one will get hurt if the other is gone
-[01:44.00]서로 나쁜 새낀 되기 싫기에 | Because neither wants to be the bad guy
-[01:46.00]애매한 책임전가의 연속에 umm umm | In this endless, vague shifting of blame, umm umm
-[01:50.00]지칠 만큼 지쳐서 되려 평행이 됐네 | We got so tired that it actually became parallel
-[01:53.00]Ay 이런 평행을 바란 건 아닌데 | Ay, this wasn't the kind of parallel I wanted
-[01:56.00]처음에는 누가 더 무거운지 | At first, who was heavier
-[01:58.00]자랑하며 서롤 바라보며 웃지 | We'd boast, look at each other and laugh
-[02:00.00]이제는 누가 무거운지를 두고 | Now, over who is heavier
-[02:02.00]경쟁을 하게 되었네 | It has become a competition
-[02:04.00]되려 싸움의 불씨 | Rather, a spark for a fight
-[02:05.00]누군가는 결국 이곳에서 | Someone will eventually have to
-[02:08.00]내려야 끝이 날 듯하네 | Get off here for this to end
-[02:10.00]가식 섞인 서롤 위하는 척 | Pretending to care for each other with fake kindness
-[02:12.00]더는 말고 이젠 결정해야 돼 | Let's stop and decide now
-[02:15.00]서로 마음이 없다면 | If we don't have feelings for each other
-[02:18.00]서롤 생각 안 했다면 | If we didn't care about each other
-[02:21.00]우리가 이리도 질질 끌었을까 | Would we have dragged it out this long?
-[02:25.00]이제 마음이 없다면 | If there are no feelings left now
-[02:27.00]이 시소 위는 위험해 위험해 | It's dangerous, dangerous on this seesaw
-[02:30.00]내 생각 더는 말고 | Don't think about me anymore
-[02:33.00]All right 반복된 시소게임 | All right, a repeating seesaw game
-[02:36.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
-[02:41.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
-[02:45.00]누군간 여기서 내려야 돼 | Someone has to get off here
-[02:49.00]할 순 없지만 | Even though we can't
-[02:51.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
-[02:55.00](Hol' up Hol' up) 니가 없던 처음의 그때처럼 | (Hol' up Hol' up) Like the very beginning when you weren't here
-[03:00.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
-[03:04.00](Hol' up Hol' up) 니가 없는 이 시소에서 내려 | (Hol' up Hol' up) I get off this seesaw without you
-[03:08.00]All right 반복된 시소게임 | All right, a repeating seesaw game
-[03:12.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
-[03:17.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
-[03:21.00]누군간 여기서 내려야 돼 | Someone has to get off here
-[03:25.00]할 순 없지만 | Even though we can't
-[03:27.00]누가 내릴지 말진 서로 눈치 말고 | Let's not read each other's minds on who gets off
-[03:32.00]그저 맘 가는 대로 질질 끌지 말고 | Let's not drag it out, just follow our hearts
-[03:36.00]이젠 내릴지 말지 끝을 내보자고 | Let's put an end to whether we get off or not
-[03:40.00]반복되는 시소게임 | A repeating seesaw game
-[03:43.00]이젠 그만해 | Stop it now
-[03:45.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
-[03:49.00](Hol' up Hol' up) 니가 없던 처음의 그때처럼 | (Hol' up Hol' up) Like the very beginning when you weren't here
-[03:54.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
-[03:58.00](Hol' up Hol' up) 니가 없는 이 시소에서 내려 | (Hol' up Hol' up) I get off this seesaw without you
+[00:01.00]괜한 자존심 때문에 끝내자고 말을 | Because of my useless pride, I brought up breaking up
+[00:08.00]해버린 거야 (one, two, let's go) | I ended up saying it (one, two, let's go)
+[00:12.00]뺏긴 my heart, that girl's a killer | She stole my heart, that girl's a killer
+[00:15.00]Love so good, feels like a thriller
+[00:17.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
+[00:22.00]One-one-nine, one-one-nine
+[00:24.00]Save my life, save my life
+[00:26.00]She sets me free
+[00:29.00]이건 emergency love (love) | this is an emergency love (love)
+[00:32.00]너는 마치 flashlight (flashlight) | You are like a flashlight (flashlight)
+[00:34.00]자꾸만 시선을 뺏겨 (oh) | You keep stealing my gaze (oh)
+[00:36.00]많은 사람 속에서 (ooh) | Among the many people (ooh)
+[00:39.00]순간 너만 보였어 (you) | In that moment, I only saw you (you)
+[00:41.00]다들 말하지, love is so sweet, oh-ah | Everyone says, love is so sweet, oh-ah
+[00:45.00](so sweet)
+[00:46.00]아직 난 뭔지 모르겠지 right now | I still don't know what it is right now
+[00:50.00]처음 느낀 이상한 떨림 | This strange trembling I feel for the first time
+[00:52.00]이건 진심, I'm not kidding | This is sincere, I'm not kidding
+[00:55.00]친구이기엔 더 | To just be friends, it's
+[00:56.00]deeper, deeper, deeper
+[00:57.00]어쩌면 love song, yah (love song, yah) | Maybe it's a love song, yah (love song, yah)
+[01:01.00]뺏긴 my heart, that girl's a killer (killer) | She stole my heart, that girl's a killer (killer)
+[01:03.00]Love so good, feels like a thriller (thrillеr)
+[01:05.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
+[01:10.00]Onе-one-nine, one-one-nine (one-one-nine)
+[01:13.00]Save my life, save my life (save my life)
+[01:15.00]She sets me free
+[01:17.00]이건 emergency love (love) | this is an emergency love (love)
+[01:21.00]이상해 나, what do I do? | I feel strange, what do I do?
+[01:23.00]너에 관한 건 뭐라도 | Anything about you
+[01:24.00]신경 쓰여 난 all day | I care about it all day
+[01:26.00]넌 만들어, my day | you make my day
+[01:27.00]이 감정은 someday, 난 알고 싶어 | This feeling someday, I want to know
+[01:30.00]귓가에 울린, love is so sweet, oh-ah | Ringing in my ears, love is so sweet, oh-ah
+[01:34.00](so sweet)
+[01:35.00]멈출 수 없이 빠져버린 나야 (ooh) | I've fallen for you unstoppably (ooh)
+[01:39.00]네가 자꾸 궁금해 왜지? | I keep getting curious about you, why?
+[01:41.00]말도 안 돼, I'm not kidding | No way, I'm not kidding
+[01:43.00](I'm not)
+[01:44.00]시간이 갈수록 깊어, 깊어, 깊어져 | As time goes by, it gets deeper, deeper, deeper
+[01:46.00]가는 나잖아 (나잖아) | That's what's happening to me (to me)
+[01:50.00]뺏긴 my heart, that girl's a killer (killer, killer) | She stole my heart, that girl's a killer (killer, killer)
+[01:52.00]Love so good, feels like a thriller (thriller, thriller)
+[01:54.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
+[01:59.00]One-one-nine, one-one-nine (one-one-nine)
+[02:02.00]Save my life, save my life (save my life)
+[02:04.00]She sets me free
+[02:07.00]이건 emergency love (love) | this is an emergency love (love)
+[02:08.00]Yeah, 이건 뭘까? | Yeah, what is this?
+[02:09.50]You know what I'm talking about
+[02:11.00]왜 이렇게 나의 맘이 어지러운 걸까? | Why is my heart so dizzy like this?
+[02:14.00]이 모든 게 내가 널 좋아하는 건가? | Does all this mean I like you?
+[02:16.00]난 그럼 더 이상 끌고 싶지 않아, ooh | Then I don't want to drag it out any longer, ooh
+[02:19.00]다른 건 (다른 건) | Everything else (everything else)
+[02:21.00]nothing but (nothing but)
+[02:24.00]I want it all with you
+[02:29.00]뺏긴 my heart, that girl's a killer (killer) | She stole my heart, that girl's a killer (killer)
+[02:31.00]Love so good, feels like a thriller (thriller)
+[02:33.00]시작됐지, 이건 emergency (oh, vroom) | It has started, this is an emergency (oh, vroom)
+[02:38.00]One-one-nine, one-one-nine (oh, one-one-nine)
+[02:41.00]Save my life, save my life (save my life)
+[02:43.00]She sets me free (hey)
+[02:45.00]이건 emergency love (love) | this is an emergency love (love)
 `;
 
 function parseLrc(lrcString) {
