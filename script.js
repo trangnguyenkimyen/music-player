@@ -39,29 +39,41 @@ const rawLrc = `
 [02:03.50]아무것도 아닌 나 | I am nothing
 [02:06.00]공회전은 반복돼, 기억들은 난폭해 | Idling repeats, memories turn violent
 [02:09.00]난 누워 들판 속에, 시선을 던져 하늘 위에 | I lie in the field, throw my gaze to the sky
-[02:12.00]뭘 원했었던 건지? 이제 기억이 안 나 | What was it I wanted? I can't remember anymore
-[02:15.00]얻었다 믿었던 모든 행복은 겨우 찰나 | All the happiness I thought I got was just fleeting
-[02:18.00]Yeah, I been goin', no matter what's in front, 그게 뭐가 됐건 | Yeah, I been goin', no matter what's in front, whatever it is
-[02:21.00]새벽의 옷자락을 붙잡고 뭔가 토해내던 기억 | Memories of holding onto the edge of dawn and throwing up something
-[02:24.00]목소리만 큰 자들의 사회, 난 여전히 침묵을 말해 | A society of loud mouths, I still speak in silence
-[02:28.00]이건 방백, 완숙한 돛단배, 모든 오해 편견들에 닿게 | This is a monologue, a fully matured sailboat, reaching all misunderstandings and prejudices
+[02:12.00]뭘 원했었던 건지? | What was it I wanted? 
+[02:13.00]이제 기억이 안 나 | I can't remember anymore
+[02:15.00]얻었다 믿었던 모든 행복은 | All the happiness I thought I got 
+[02:16.00]겨우 찰나 | was just fleeting
+[02:18.00]Yeah, I been goin', no matter what's in front
+[02:20.00]그게 뭐가 됐건 | whatever it is
+[02:21.00]새벽의 옷자락을 붙잡고 | Memories of holding onto the edge of dawn 
+[02:23.00]뭔가 토해내던 기억 | and throwing up something
+[02:24.00]목소리만 큰 자들의 사회 | A society of loud mouths
+[02:26.00]난 여전히 침묵을 말해 | I still speak in silence
+[02:28.00]이건 방백, 완숙한 돛단배 | This is a monologue, a fully matured sailboat
+[02:29.00]모든 오해 편견들에 닿게 | reaching all misunderstandings and prejudices
 [02:31.00]반갑지 않아, 너의 헹가래 | Your tossing me in the air is not welcome
 [02:32.00]내 두 발이 여기 땅 위에 (ayy) | My two feet are here on the ground (ayy)
 [02:34.00]이름도 없는 꽃들과 함께 | Together with the nameless flowers
 [02:35.00]다신 별에 갈 수 없어, I can't | I can't go to the stars again, I can't
-[02:37.00]발밑으로, I just go, 목적 없는 목적지로 | Under my feet, I just go, to a destination without purpose
-[02:40.00]슬픈 줄도 모르고, 그림자마저 친구로, I be gone | Not even knowing it's sad, with even shadows as friends, I be gone
+[02:37.00]발밑으로, I just go | Under my feet, I just go
+[02:38.00]목적 없는 목적지로 | to a destination without purpose
+[02:40.00]슬픈 줄도 모르고 | Not even knowing it's sad
+[02:41.00]그림자마저 친구로, I be gone | with even shadows as friends, I be gone
 [02:42.00]저 하늘에 흩어질래 (ooh-ooh) | I want to scatter in that sky (ooh-ooh)
 [02:49.00]Light a flower, flowerwork, flower, flowerwork
 [02:55.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
 [03:01.00]Light a flower, flowerwork, flower, flowerwork
 [03:08.00]문득 멈춰보니 찬란한 맨발 | Suddenly stopping, I see my radiant bare feet
-[03:11.00]원래 내 것은 아무것도 없었지 (that's right) | Nothing was ever mine to begin with (that's right)
+[03:11.00]원래 내 것은 아무것도 없었지 | Nothing was ever mine to begin with
+[03:13.00](that's right)
 [03:14.00]And don't tell me like you gotta be someone
-[03:17.00]난 절대 그들처럼 될 수 없으니 (light a flower) | Because I can never be like them (light a flower)
+[03:17.00]난 절대 그들처럼 될 수 없으니 | Because I can never be like them
+[03:20.00](light a flower)
 [03:21.00]그래, 내 시작은 시 | Yeah, my beginning was poetry
-[03:23.00]여태껏 날 지켜온 단 하나의 힘과 dream (light a flower) | The only strength and dream that protected me so far (light a flower)
-[03:26.00]타는 불꽃에서 들꽃으로, 소년에서 영원으로 | From a burning flame to a wildflower, from a boy to eternity
+[03:23.00]여태껏 날 지켜온 단 하나의 힘과 dream | The only strength and dream that protected me so far
+[03:25.00](light a flower)
+[03:26.00]타는 불꽃에서 들꽃으로 | From a burning flame to a wildflower
+[03:28.00]소년에서 영원으로 | from a boy to eternity
 [03:30.00]나 이 황량한 들에 남으리 | I will remain in this desolate field
 [03:32.00]Ah, 언젠가 나 되돌아가리 | Ah, someday I will return
 [03:35.00]저 하늘에 흩어질래 | I want to scatter in that sky
@@ -69,13 +81,16 @@ const rawLrc = `
 [03:47.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
 [03:54.00]Light a flower, flowerwork, flower, flowerwork
 [04:01.00]Flower field, that's where I'm at (where I'm at)
-[04:04.00]Open land, that's where I'm at (where I'm at, la-la-la-la-la-la-la-la)
+[04:04.00]Open land, that's where I'm at (where I'm at)
 [04:07.00]No name, that's what I have (what I have)
-[04:10.00]No shame, I'm on my grave, yo (la-la-la-la-la-la-la-la)
-[04:13.00]두 발이 땅에 닿지 않을 때 (두 발이 땅에 닿지 않을 때) | When my two feet don't touch the ground (when my two feet don't touch the ground)
-[04:16.00]당신의 마음이 당신을 넘볼 때 (당신의 마음이 당신을 넘볼 때, la-la-la-la-la-la-la-la-la-la) | When your own heart threatens to overtake you (when your own heart threatens to overtake you, la-la-la-la-la-la-la-la-la-la)
-[04:19.00]꿈이 나를 집어삼킬 때, 내가 내가 아닌 때 | When dreams swallow me whole, when I am not myself
-[04:23.00]그 모든 때, yeah (la-la-la) | All those times, yeah (la-la-la)
+[04:10.00]No shame, I'm on my grave, yo
+[04:13.00]두 발이 땅에 닿지 않을 때 | When my two feet don't touch the ground
+[04:15.00](두 발이 땅에 닿지 않을 때) | (when my two feet don't touch the ground)
+[04:16.00]당신의 마음이 당신을 넘볼 때 | When your own heart threatens to overtake you
+[04:18.00](당신의 마음이 당신을 넘볼 때) | (when your own heart threatens to overtake you)
+[04:19.00]꿈이 나를 집어삼킬 때 | When dreams swallow me whole
+[04:21.00]내가 내가 아닌 때 | when I am not myself
+[04:23.00]그 모든 때, yeah | All those times, yeah
 `;
 
 function parseLrc(lrcString) {
