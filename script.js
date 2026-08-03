@@ -1,96 +1,75 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:15.00]Flower field, that's where I'm at (where I'm at)
-[00:18.00]Open land, that's where I'm at (where I'm at)
-[00:21.00]No name, that's what I have (what I have)
-[00:24.00]No shame, I'm on my grave, yo
-[00:27.00]두 발이 땅에 닿지 않을 때 | When my two feet don't touch the ground
-[00:29.00]당신의 마음이 당신을 넘볼 때 | When your own heart threatens to overtake you
-[00:33.00]꿈이 나를 집어삼킬 때 | When dreams swallow me whole
-[00:35.00]내가, 내가 아닐 때, 그 모든 때, yeah | When I'm not myself, all those times, yeah
-[00:39.00]불꽃을 나는 동경했었네 | I used to long for the flames
-[00:42.00]그저 화려하게 지고 싶었네 | I just wanted to fall beautifully
-[00:45.00]시작의 전부터 나 상상했었지 | Even before the start, I had imagined it
-[00:48.00]끝엔 웃으며 박수 쳐 줄 수 있길 | Hoping I could smile and applaud at the end
-[00:51.00]나 소원했었네 | I had wished for it
-[00:52.00]믿었던 게 다 멀어지던 때 | when everything I believed in faded away
-[00:55.00]이 모든 명예가 이젠 멍에가 됐을 때 | When all this honor became a yoke
-[00:58.00]이 욕심을 제발 거둬가소서 | Please take away this greed
-[01:00.00]어떤 일이 있어도 | no matter what happens
-[01:02.00]Oh, 나를 나로 하게 하소서 | Oh, let me just be me
-[01:04.00]Oh, everyday and every night (yeah)
-[01:07.00]Persistin' pain and criminal mind (yeah)
-[01:10.00]내 심장소리에 잠 못 들던 밤 | Nights I couldn't sleep because of the sound of my heart
-[01:12.00]창밖에 걸린 청승맞은 초승달 | The sorrowful crescent moon hanging outside the window
-[01:16.00]I do wish me a lovely night (yeah)
-[01:18.00]내 분수보다 비대해진 life (yeah) | A life that grew bigger than I deserved (yeah)
-[01:21.00]저기 날아오르는 풍선을 애써 쥐고 | Struggling to hold onto the balloon flying away over there
-[01:24.00]따져 물어, 대체 지금 넌 어디에? | Asking myself, where are you right now?
-[01:26.00]Where you go? Where's your soul?
-[01:28.00]Yo, where's your dream?
-[01:28.00]저 하늘에 흩어질래 (ooh-ooh) | I want to scatter in that sky (ooh-ooh)
-[01:34.00]Light a flower, flowerwork, flower, flowerwork
-[01:40.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
-[01:47.00]Light a flower, flowerwork, flower, flowerwork
-[01:53.00]그 어디까지가 내 마지막일까? | Where exactly is my end?
-[01:56.00]전부 진저리 나, 하나 열까지 다 | I'm sick of it all, from one to ten
-[01:59.00]이 지긋지긋한 가면은 언제 벗겨질까? | When will this damn mask come off?
-[02:02.00]Yeah, me no hero, me no villain
-[02:03.50]아무것도 아닌 나 | I am nothing
-[02:06.00]공회전은 반복돼, 기억들은 난폭해 | Idling repeats, memories turn violent
-[02:09.00]난 누워 들판 속에, 시선을 던져 하늘 위에 | I lie in the field, throw my gaze to the sky
-[02:12.00]뭘 원했었던 건지? | What was it I wanted? 
-[02:13.00]이제 기억이 안 나 | I can't remember anymore
-[02:15.00]얻었다 믿었던 모든 행복은 | All the happiness I thought I got 
-[02:16.00]겨우 찰나 | was just fleeting
-[02:18.00]Yeah, I been goin', no matter what's in front
-[02:20.00]그게 뭐가 됐건 | whatever it is
-[02:21.00]새벽의 옷자락을 붙잡고 | Memories of holding onto the edge of dawn 
-[02:23.00]뭔가 토해내던 기억 | and throwing up something
-[02:24.00]목소리만 큰 자들의 사회 | A society of loud mouths
-[02:26.00]난 여전히 침묵을 말해 | I still speak in silence
-[02:28.00]이건 방백, 완숙한 돛단배 | This is a monologue, a fully matured sailboat
-[02:29.00]모든 오해 편견들에 닿게 | reaching all misunderstandings and prejudices
-[02:31.00]반갑지 않아, 너의 헹가래 | Your tossing me in the air is not welcome
-[02:32.00]내 두 발이 여기 땅 위에 (ayy) | My two feet are here on the ground (ayy)
-[02:34.00]이름도 없는 꽃들과 함께 | Together with the nameless flowers
-[02:35.00]다신 별에 갈 수 없어, I can't | I can't go to the stars again, I can't
-[02:37.00]발밑으로, I just go | Under my feet, I just go
-[02:38.00]목적 없는 목적지로 | to a destination without purpose
-[02:40.00]슬픈 줄도 모르고 | Not even knowing it's sad
-[02:41.00]그림자마저 친구로, I be gone | with even shadows as friends, I be gone
-[02:42.00]저 하늘에 흩어질래 (ooh-ooh) | I want to scatter in that sky (ooh-ooh)
-[02:49.00]Light a flower, flowerwork, flower, flowerwork
-[02:55.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
-[03:01.00]Light a flower, flowerwork, flower, flowerwork
-[03:08.00]문득 멈춰보니 찬란한 맨발 | Suddenly stopping, I see my radiant bare feet
-[03:11.00]원래 내 것은 아무것도 없었지 | Nothing was ever mine to begin with
-[03:13.00](that's right)
-[03:14.00]And don't tell me like you gotta be someone
-[03:17.00]난 절대 그들처럼 될 수 없으니 | Because I can never be like them
-[03:20.00](light a flower)
-[03:21.00]그래, 내 시작은 시 | Yeah, my beginning was poetry
-[03:23.00]여태껏 날 지켜온 단 하나의 힘과 dream | The only strength and dream that protected me so far
-[03:25.00](light a flower)
-[03:26.00]타는 불꽃에서 들꽃으로 | From a burning flame to a wildflower
-[03:28.00]소년에서 영원으로 | from a boy to eternity
-[03:30.00]나 이 황량한 들에 남으리 | I will remain in this desolate field
-[03:32.00]Ah, 언젠가 나 되돌아가리 | Ah, someday I will return
-[03:35.00]저 하늘에 흩어질래 | I want to scatter in that sky
-[03:41.00]Light a flower, flowerwork, flower, flowerwork
-[03:47.00]저 하늘에 눈부시게 (hey, hey) | Dazzlingly in that sky (hey, hey)
-[03:54.00]Light a flower, flowerwork, flower, flowerwork
-[04:01.00]Flower field, that's where I'm at (where I'm at)
-[04:04.00]Open land, that's where I'm at (where I'm at)
-[04:07.00]No name, that's what I have (what I have)
-[04:10.00]No shame, I'm on my grave, yo
-[04:13.00]두 발이 땅에 닿지 않을 때 | When my two feet don't touch the ground
-[04:15.00](두 발이 땅에 닿지 않을 때) | (when my two feet don't touch the ground)
-[04:16.00]당신의 마음이 당신을 넘볼 때 | When your own heart threatens to overtake you
-[04:18.00](당신의 마음이 당신을 넘볼 때) | (when your own heart threatens to overtake you)
-[04:19.00]꿈이 나를 집어삼킬 때 | When dreams swallow me whole
-[04:21.00]내가 내가 아닌 때 | when I am not myself
-[04:23.00]그 모든 때, yeah | All those times, yeah
+[00:09.00]시작은 뭐 즐거웠었네 | The beginning was quite fun
+[00:14.00]오르락내리락 그 자체로 | Going up and down, just like that
+[00:18.00]어느새 서로 지쳐버렸네 | Before we knew it, we both got tired
+[00:23.00]의미 없는 감정소모에 | From this meaningless emotional drain
+[00:26.00]반복된 시소 시소게임 | A repeating seesaw, seesaw game
+[00:31.00]이쯤 되니 지겨워 지겨워 졌네 | By now, I'm sick and tired of it
+[00:35.00]반복된 시소 시소게임 | A repeating seesaw, seesaw game
+[00:40.00]우린 서로 지쳐서 지겨워 졌네 | We got tired of each other and sick of it
+[00:44.00]사소한 말다툼이 시작이었을까 | Was a petty argument the beginning?
+[00:46.00]내가 너보다 무거워졌었던 순간 | The moment I became heavier than you
+[00:49.00]애초에 평행은 존재한 적이 없기에 | Since parallel never existed in the first place
+[00:51.00]더욱이 욕심내서 맞추려 했을까 | Did we get greedy and try to force it?
+[00:53.00]사랑이었고 이게 사랑이란 단어의 자체면 | If it was love, and if this is what the word love means
+[00:56.00]굳이 반복해야 할 필요 있을까 | Is there really a need to repeat it?
+[00:58.00]서로 지쳤고 같은 카드를 쥐고 있는 듯해 | We're both tired and seem to hold the same card
+[01:00.00]그렇다면 뭐 | If so, well
+[01:03.00]All right 반복된 시소게임 | All right, a repeating seesaw game
+[01:07.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
+[01:12.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
+[01:16.00]누군간 여기서 내려야 돼 | Someone has to get off here
+[01:20.00]할 순 없지만 | Even though we can't
+[01:22.00]누가 내릴지 말진 서로 눈치 말고 | Let's not read each other's minds on who gets off
+[01:26.00]그저 맘 가는 대로 질질 끌지 말고 | Let's not drag it out, just follow our hearts
+[01:30.00]이젠 내릴지 말지 끝을 내보자고 | Let's put an end to whether we get off or not
+[01:34.00]반복되는 시소게임 | A repeating seesaw game
+[01:38.00]이젠 그만해 | Stop it now
+[01:39.00]사람이 참 간사하긴 하지 | Humans are truly so cunning
+[01:41.00]한 명이 없음 다칠 걸 알면서 | Knowing one will get hurt if the other is gone
+[01:44.00]서로 나쁜 새낀 되기 싫기에 | Because neither wants to be the bad guy
+[01:46.00]애매한 책임전가의 연속에 umm umm | In this endless, vague shifting of blame, umm umm
+[01:50.00]지칠 만큼 지쳐서 되려 평행이 됐네 | We got so tired that it actually became parallel
+[01:53.00]Ay 이런 평행을 바란 건 아닌데 | Ay, this wasn't the kind of parallel I wanted
+[01:56.00]처음에는 누가 더 무거운지 | At first, who was heavier
+[01:58.00]자랑하며 서롤 바라보며 웃지 | We'd boast, look at each other and laugh
+[02:00.00]이제는 누가 무거운지를 두고 | Now, over who is heavier
+[02:02.00]경쟁을 하게 되었네 | It has become a competition
+[02:04.00]되려 싸움의 불씨 | Rather, a spark for a fight
+[02:05.00]누군가는 결국 이곳에서 | Someone will eventually have to
+[02:08.00]내려야 끝이 날 듯하네 | Get off here for this to end
+[02:10.00]가식 섞인 서롤 위하는 척 | Pretending to care for each other with fake kindness
+[02:12.00]더는 말고 이젠 결정해야 돼 | Let's stop and decide now
+[02:15.00]서로 마음이 없다면 | If we don't have feelings for each other
+[02:18.00]서롤 생각 안 했다면 | If we didn't care about each other
+[02:21.00]우리가 이리도 질질 끌었을까 | Would we have dragged it out this long?
+[02:25.00]이제 마음이 없다면 | If there are no feelings left now
+[02:27.00]이 시소 위는 위험해 위험해 | It's dangerous, dangerous on this seesaw
+[02:30.00]내 생각 더는 말고 | Don't think about me anymore
+[02:33.00]All right 반복된 시소게임 | All right, a repeating seesaw game
+[02:36.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
+[02:41.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
+[02:45.00]누군간 여기서 내려야 돼 | Someone has to get off here
+[02:49.00]할 순 없지만 | Even though we can't
+[02:51.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
+[02:55.00](Hol' up Hol' up) 니가 없던 처음의 그때처럼 | (Hol' up Hol' up) Like the very beginning when you weren't here
+[03:00.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
+[03:04.00](Hol' up Hol' up) 니가 없는 이 시소에서 내려 | (Hol' up Hol' up) I get off this seesaw without you
+[03:08.00]All right 반복된 시소게임 | All right, a repeating seesaw game
+[03:12.00]이제서야 끝을 내보려 해 | I'm finally trying to put an end to it
+[03:17.00]All right 지겨운 시소게임 | All right, a tiresome seesaw game
+[03:21.00]누군간 여기서 내려야 돼 | Someone has to get off here
+[03:25.00]할 순 없지만 | Even though we can't
+[03:27.00]누가 내릴지 말진 서로 눈치 말고 | Let's not read each other's minds on who gets off
+[03:32.00]그저 맘 가는 대로 질질 끌지 말고 | Let's not drag it out, just follow our hearts
+[03:36.00]이젠 내릴지 말지 끝을 내보자고 | Let's put an end to whether we get off or not
+[03:40.00]반복되는 시소게임 | A repeating seesaw game
+[03:43.00]이젠 그만해 | Stop it now
+[03:45.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
+[03:49.00](Hol' up Hol' up) 니가 없던 처음의 그때처럼 | (Hol' up Hol' up) Like the very beginning when you weren't here
+[03:54.00](Hol' up Hol' up) 니가 없는 이 시소 위를 걸어 | (Hol' up Hol' up) I walk on this seesaw without you
+[03:58.00](Hol' up Hol' up) 니가 없는 이 시소에서 내려 | (Hol' up Hol' up) I get off this seesaw without you
 `;
 
 function parseLrc(lrcString) {
