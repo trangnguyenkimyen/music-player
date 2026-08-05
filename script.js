@@ -1,68 +1,64 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:01.00]괜한 자존심 때문에 끝내자고 말을 | Because of my useless pride, I brought up breaking up
-[00:08.00]해버린 거야 (one, two, let's go) | I ended up saying it (one, two, let's go)
-[00:12.00]뺏긴 my heart, that girl's a killer | She stole my heart, that girl's a killer
-[00:15.00]Love so good, feels like a thriller
-[00:17.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
-[00:22.00]One-one-nine, one-one-nine
-[00:24.00]Save my life, save my life
-[00:26.00]She sets me free
-[00:29.00]이건 emergency love (love) | this is an emergency love (love)
-[00:32.00]너는 마치 flashlight (flashlight) | You are like a flashlight (flashlight)
-[00:34.00]자꾸만 시선을 뺏겨 (oh) | You keep stealing my gaze (oh)
-[00:36.00]많은 사람 속에서 (ooh) | Among the many people (ooh)
-[00:39.00]순간 너만 보였어 (you) | In that moment, I only saw you (you)
-[00:41.00]다들 말하지, love is so sweet, oh-ah | Everyone says, love is so sweet, oh-ah
-[00:45.00](so sweet)
-[00:46.00]아직 난 뭔지 모르겠지 right now | I still don't know what it is right now
-[00:50.00]처음 느낀 이상한 떨림 | This strange trembling I feel for the first time
-[00:52.00]이건 진심, I'm not kidding | This is sincere, I'm not kidding
-[00:55.00]친구이기엔 더 | To just be friends, it's
-[00:56.00]deeper, deeper, deeper
-[00:57.00]어쩌면 love song, yah (love song, yah) | Maybe it's a love song, yah (love song, yah)
-[01:01.00]뺏긴 my heart, that girl's a killer (killer) | She stole my heart, that girl's a killer (killer)
-[01:03.00]Love so good, feels like a thriller (thrillеr)
-[01:05.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
-[01:10.00]Onе-one-nine, one-one-nine (one-one-nine)
-[01:13.00]Save my life, save my life (save my life)
-[01:15.00]She sets me free
-[01:17.00]이건 emergency love (love) | this is an emergency love (love)
-[01:21.00]이상해 나, what do I do? | I feel strange, what do I do?
-[01:23.00]너에 관한 건 뭐라도 | Anything about you
-[01:24.00]신경 쓰여 난 all day | I care about it all day
-[01:26.00]넌 만들어, my day | you make my day
-[01:27.00]이 감정은 someday, 난 알고 싶어 | This feeling someday, I want to know
-[01:30.00]귓가에 울린, love is so sweet, oh-ah | Ringing in my ears, love is so sweet, oh-ah
-[01:34.00](so sweet)
-[01:35.00]멈출 수 없이 빠져버린 나야 (ooh) | I've fallen for you unstoppably (ooh)
-[01:39.00]네가 자꾸 궁금해 왜지? | I keep getting curious about you, why?
-[01:41.00]말도 안 돼, I'm not kidding | No way, I'm not kidding
-[01:43.00](I'm not)
-[01:44.00]시간이 갈수록 깊어, 깊어, 깊어져 | As time goes by, it gets deeper, deeper, deeper
-[01:46.00]가는 나잖아 (나잖아) | That's what's happening to me (to me)
-[01:50.00]뺏긴 my heart, that girl's a killer (killer, killer) | She stole my heart, that girl's a killer (killer, killer)
-[01:52.00]Love so good, feels like a thriller (thriller, thriller)
-[01:54.00]시작됐지, 이건 emergency (vroom) | It has started, this is an emergency (vroom)
-[01:59.00]One-one-nine, one-one-nine (one-one-nine)
-[02:02.00]Save my life, save my life (save my life)
-[02:04.00]She sets me free
-[02:07.00]이건 emergency love (love) | this is an emergency love (love)
-[02:08.00]Yeah, 이건 뭘까? | Yeah, what is this?
-[02:09.50]You know what I'm talking about
-[02:11.00]왜 이렇게 나의 맘이 어지러운 걸까? | Why is my heart so dizzy like this?
-[02:14.00]이 모든 게 내가 널 좋아하는 건가? | Does all this mean I like you?
-[02:16.00]난 그럼 더 이상 끌고 싶지 않아, ooh | Then I don't want to drag it out any longer, ooh
-[02:19.00]다른 건 (다른 건) | Everything else (everything else)
-[02:21.00]nothing but (nothing but)
-[02:24.00]I want it all with you
-[02:29.00]뺏긴 my heart, that girl's a killer (killer) | She stole my heart, that girl's a killer (killer)
-[02:31.00]Love so good, feels like a thriller (thriller)
-[02:33.00]시작됐지, 이건 emergency (oh, vroom) | It has started, this is an emergency (oh, vroom)
-[02:38.00]One-one-nine, one-one-nine (oh, one-one-nine)
-[02:41.00]Save my life, save my life (save my life)
-[02:43.00]She sets me free (hey)
-[02:45.00]이건 emergency love (love) | this is an emergency love (love)
+[00:21.00]대체 뭔 말이 많아 | Why do you talk so much?
+[00:23.00]너가 내 속을 알아 | Like you know what's on my mind
+[00:24.00]그냥 싫다면 떠나 | If you don't want me, just leave
+[00:27.00]넌 내 시간을 뺏어 | You keep wasting all my time
+[00:28.00]필요 없다고 버려 | Tossed me out like I meant nothing
+[00:30.00]그런 사람이라서, yeah | That's just the way you are, yeah
+[00:32.00]I hope you understand what I'm saying (yeah)
+[00:35.00]I hope you understand what I'm saying (yeah)
+[00:38.00]I hope you understand what I'm saying (yeah)
+[00:41.00]I hope you understand what I'm saying (yeah)
+[00:44.00]너 왜 자꾸 화내는 건데 | Why do you keep getting mad?
+[00:46.00]I did nothing to you 그건 서운해 | I did nothing to you, that hurts
+[00:49.00]그래 맘은 문을 닫았네 | Guess you've shut your heart for good
+[00:52.00]시간에 무뎌지면 좋겠네 | Hope time will make this fade away
+[00:55.00]I'm just doing what I gotta do
+[00:57.00]몰라서 물어 더우니까 화내지 말고 | I'm just asking, don't lose your cool
+[01:00.00]내가 널 왜 믿어 뭘 보고 안 봐도 뻔해 | Why should I trust you? I know how this goes
+[01:02.00]Look at this picky eater
+[01:04.00]발 담그고 도망 | You dip your toes, then run away
+[01:05.00]갈 거 알고 있으니 그냥 빨리 물러가 | If you're leaving anyway, just go
+[01:07.00]온도는 내려가지 않아 | The heat just won't die down
+[01:10.00]너도 내 속 모르면서 | You don't know what's in my heart
+[01:11.00]이해 바라고 있잖아 | Still asking me to understand
+[01:13.00]그러니 날 미워하지 마 | So don't go blaming me
+[01:15.00]나도 니 속 모르면서 | I don't know your heart either
+[01:17.00]벌써 판단하고 있잖아 | Still I judged you way too soon
+[01:18.00]대체 뭔 말이 많아 | Why do you talk so much?
+[01:19.00]너가 내 속을 알아 | Like you know what's on my mind
+[01:20.00]그냥 싫다면 떠나 | If you don't want me, just leave
+[01:23.00]넌 내 시간을 뺏어 | You keep wasting all my time
+[01:25.00]필요 없다고 버려 | Tossed me out like I meant nothing
+[01:26.00]그런 사람이라서, yeah | That's just the way you are, yeah
+[01:29.00]I hope you understand what I'm saying (yeah)
+[01:31.00]I hope you understand what I'm saying (yeah)
+[01:34.00]I hope you understand what I'm saying (yeah)
+[01:37.00]I hope you understand what I'm saying (yeah)
+[01:40.00]대체 뭔 말이 많아 | Why do you talk so much?
+[01:42.00]이해해 주길 바라지마 | Don't expect me to understand
+[01:44.00]내가 여태껏 해준 건 | After all I've done for you
+[01:45.00]어디로 갔나 | Where did it all go?
+[01:47.00]너를 말할 때 도망만 갔네 | You always ran from every talk
+[01:50.00]사랑은 누구 죄 똑같은 무게 | Love weighs the same on both of us
+[01:53.00]근데 너 비교만 해 | But you only compare
+[01:55.00]그러고는 할말 안 해 | Then you don't say a word
+[01:56.00]그러니 안 아파 내 마음이 | My heart doesn't hurt no more
+[01:59.00]널 믿을 수 있는 껀덕지 하나라도 | I just needed one reason to trust you
+[02:03.00]주길 바랬어 | I hoped you'd give me one
+[02:05.00]같이 있던 곳이 담긴 앨범은 | That album full of memories
+[02:10.00]이 추운 날씨에 나처럼 혼자 있어 | Sitting alone, just like me
+[02:14.00]대체 뭔 말이 많아 | Why do you talk so much?
+[02:16.00]너가 내 속을 알아 | Like you know what's on my mind
+[02:17.00]그냥 싫다면 떠나 | If you don't want me, just leave
+[02:20.00]넌 내 시간을 뺏어 | You keep wasting all my time
+[02:21.00]필요 없다고 버려 | Tossed me out like I meant nothing
+[02:23.00]그런 사람이라서 yeah | That's just the way you are, yeah
+[02:25.00]I hope you understand what I'm saying (yeah)
+[02:28.00]I hope you understand what I'm saying (yeah)
+[02:31.00]I hope you understand what I'm saying (yeah)
+[02:33.00]I hope you understand what I'm saying (yeah)
 `;
 
 function parseLrc(lrcString) {
