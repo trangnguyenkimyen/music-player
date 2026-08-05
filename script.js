@@ -1,40 +1,73 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:15.00]想要妳聽到我的新歌 | I want you to hear my new song
-[00:18.00]最簡單的情歌 | The simplest love song
-[00:20.00]有點笨的情歌 因為 | A clumsy little love song, 'cause
-[00:22.00]就怕妳覺得我只是說說的 | I'm scared you'll think it's just words
-[00:25.00]以為我在騙人 | Think I'm telling lies
-[00:27.00]感覺妳會誤認 我 | Feels like you've got me all wrong
-[00:30.00]如果妳願意相信 | If you're willing to believe
-[00:33.00]我的男子氣 可以比一比一下了 | I'll prove the man I am
-[00:37.00]我也相信妳的心 | I believe in your heart too
-[00:40.00]妳的孩子氣 girl, girl | Even your childish side, girl, girl
-[00:43.00]So can you just trust me, trust me?
-[00:47.00]So I can just trust you, trust you
-[00:51.00]And we can just trust free, trust free
-[00:54.00]And I could just love you, love you
-[00:58.00]想要問妳 信不信我的愛 | Tell me, do you believe in my love?
-[01:02.00]不是誰都能保護妳 因為愛 | Not everyone can love you like I do
-[01:06.00]如果妳問 信不信有真愛 | If you ask if true love exists
-[01:09.00]我只能說 試試看我的愛 | All I can say is give my love a chance
-[01:13.00]♪
-[01:29.00]我怕妳不懂我的性格 | I'm scared you don't know the real me
-[01:32.00]最認真的性格 最厲害的角色 因為 | I'm more sincere than I may seem, 'cause
-[01:37.00]妳說看起來像愛玩的男生 | You said I look like a player
-[01:40.00]以為我在騙人 感覺妳會誤認 我 | You think I'm lying, you've got me all wrong
-[01:44.00]如果妳願意相信 | If you're willing to believe
-[01:47.00]我的男子氣 可以比一比一下了 | I'll prove the man I am
-[01:52.00]我也相信妳的心 | I believe in your heart too
-[01:55.00]妳的孩子氣 | Even your childish side
-[01:57.00]So can you just trust me, trust me?
-[02:01.00]So I can just trust you, trust you
-[02:05.00]And we can just trust free, trust free
-[02:09.00]And I could just love you, love you
-[02:12.00]想要問妳 信不信我的愛 | Tell me, do you believe in my love?
-[02:16.00]不是誰都能保護妳 因為愛 | Not everyone can love you like I do
-[02:20.00]如果妳問 信不信有真愛 | If you ask if true love exists
-[02:24.00]我只能說 試試看我的愛 | All I can say is give my love a chance
+[00:21.60]Will you stay?
+[00:23.80]흘러가는 저 시간 | I wish we could stop time
+[00:26.60]잡아두고 싶어 with me | I wanna keep it here with me
+[00:32.20]Will you go? (Will you go?)
+[00:35.10]어떤 얼굴을 하고 서 있을까? | What kind of smile will you wear?
+[00:40.10]이젠 기억나지 않는 새벽들 | Those forgotten dawns have faded
+[00:43.20]Say
+[00:44.60]Oh, I'm runnin' round in a daze
+[00:46.90]We been walkin' so many ways
+[00:49.20]가슴이 터질 것 같아 | My heart's about to burst
+[00:52.30]Can't you see the take two?
+[00:54.90]Stories unfoldin' just for you
+[00:57.40]너와 함께하는 청춘 | My youth is with you
+[01:00.00]지금 내 손을 잡아 | Take my hand right now
+[01:02.50]Yeah, we never felt so young
+[01:04.90]When together sing the song
+[01:07.60]서로의 눈 맞추며 | Looking into each other's eyes
+[01:09.90]어둠 속에도 | Even in the darkest night
+[01:12.80]Yeah, we never felt so right
+[01:15.10]When I got you by my side
+[01:17.60]함께 걷던 길 따라 | Along the road we walked together
+[01:20.10]Oh, we young forever
+[01:24.40]사막도 바다가 돼서 we swim forever | Even deserts turn to oceans, we swim forever
+[01:26.90]외로워했던 고래도 이젠 singin' together | Even lonely whales are singing together now
+[01:29.40]함께니깐, 영원을 바래도 무섭지 않아 | With you, forever doesn't scare me
+[01:32.70]내 믿음은 너고 하나뿐인 이유니깐 | You're my faith, my only reason
+[01:34.70]You're my silver lining
+[01:36.10]You the one who just light me up
+[01:37.80]Oh, I can always feel you beside me
+[01:40.10]노을이 빌딩에 부딪쳐 | The sunset paints the city
+[01:42.30]우린 이렇게 서로에 주어져 | We were meant for each other
+[01:45.20]Say
+[01:46.20]Oh, I'm runnin' round in a daze
+[01:48.70]We been walkin' so many ways
+[01:51.10]널 품에 터질 듯 안아 | I hold you close so tight
+[01:53.90]Can't you see the take two?
+[01:56.70]Letters I didn't send to you
+[01:59.20]너와 함께하는 청춘 | My youth is with you
+[02:01.70]시작일지도 몰라 | Maybe this is just the beginning
+[02:04.50]Yeah, we never felt so young
+[02:06.80]When together sing the song
+[02:09.30]서로의 눈 맞추며 | Looking into each other's eyes
+[02:11.80]어둠 속에도 | Even in the darkest night
+[02:14.60]Yeah, we never felt so right
+[02:17.00]When I got you by my side
+[02:19.60]함께 걷던 길 따라 | Along the road we walked together
+[02:22.10]Oh, we young forever
+[02:26.30]당신과 함께해서 가능했고 | It was possible because of you
+[02:28.90]당신과 함께여서 행복했어 | I was happy because of you
+[02:31.20]당신의 목소리에 숨을 쉬고 | Your voice kept me breathing
+[02:33.40]당신의 눈물들로 일어섰어 | Your tears helped me stand again
+[02:35.90]당신들의 과분한 사랑을 내가 받을 자격 있을까 | Do I deserve all your love?
+[02:39.40]수년간 우리가 만든 영혼의 교집합 | Our souls have crossed for years
+[02:41.80]함께여서 너무 고맙고 행복합니다 | I'm so thankful we're together
+[02:44.70]부디 앞으로도 행복합시다 | Let's stay happy together
+[02:45.90]Yeah, we never felt so young
+[02:48.10]When together sing the song
+[02:50.60]서로의 눈 맞추며 | Looking into each other's eyes
+[02:52.90]비가 내려도 | Even when the rain falls
+[02:56.20]Yeah, we never felt so right
+[02:58.50]When I got you by my side (My side)
+[03:01.20]함께 맞던 별 따라 | Beneath the stars we shared
+[03:03.50]Oh, we young forever
+[03:07.90]이렇게 노래해 | Sing it out like this
+[03:13.20]Won't you hold my hand? (Yeah, we never felt so right)
+[03:18.20]Need you here tonight (We ain't never felt so young)
+[03:23.40]Oh, we young forever (Never felt so young)
+[03:31.70]Yeah, never felt, never felt so young
 `;
 
 function parseLrc(lrcString) {
