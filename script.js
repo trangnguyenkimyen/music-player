@@ -1,64 +1,40 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:21.00]대체 뭔 말이 많아 | Why do you talk so much?
-[00:23.00]너가 내 속을 알아 | Like you know what's on my mind
-[00:24.00]그냥 싫다면 떠나 | If you don't want me, just leave
-[00:27.00]넌 내 시간을 뺏어 | You keep wasting all my time
-[00:28.00]필요 없다고 버려 | Tossed me out like I meant nothing
-[00:30.00]그런 사람이라서, yeah | That's just the way you are, yeah
-[00:32.00]I hope you understand what I'm saying (yeah)
-[00:35.00]I hope you understand what I'm saying (yeah)
-[00:38.00]I hope you understand what I'm saying (yeah)
-[00:41.00]I hope you understand what I'm saying (yeah)
-[00:44.00]너 왜 자꾸 화내는 건데 | Why do you keep getting mad?
-[00:46.00]I did nothing to you 그건 서운해 | I did nothing to you, that hurts
-[00:49.00]그래 맘은 문을 닫았네 | Guess you've shut your heart for good
-[00:52.00]시간에 무뎌지면 좋겠네 | Hope time will make this fade away
-[00:55.00]I'm just doing what I gotta do
-[00:57.00]몰라서 물어 더우니까 화내지 말고 | I'm just asking, don't lose your cool
-[01:00.00]내가 널 왜 믿어 뭘 보고 안 봐도 뻔해 | Why should I trust you? I know how this goes
-[01:02.00]Look at this picky eater
-[01:04.00]발 담그고 도망 | You dip your toes, then run away
-[01:05.00]갈 거 알고 있으니 그냥 빨리 물러가 | If you're leaving anyway, just go
-[01:07.00]온도는 내려가지 않아 | The heat just won't die down
-[01:10.00]너도 내 속 모르면서 | You don't know what's in my heart
-[01:11.00]이해 바라고 있잖아 | Still asking me to understand
-[01:13.00]그러니 날 미워하지 마 | So don't go blaming me
-[01:15.00]나도 니 속 모르면서 | I don't know your heart either
-[01:17.00]벌써 판단하고 있잖아 | Still I judged you way too soon
-[01:18.00]대체 뭔 말이 많아 | Why do you talk so much?
-[01:19.00]너가 내 속을 알아 | Like you know what's on my mind
-[01:20.00]그냥 싫다면 떠나 | If you don't want me, just leave
-[01:23.00]넌 내 시간을 뺏어 | You keep wasting all my time
-[01:25.00]필요 없다고 버려 | Tossed me out like I meant nothing
-[01:26.00]그런 사람이라서, yeah | That's just the way you are, yeah
-[01:29.00]I hope you understand what I'm saying (yeah)
-[01:31.00]I hope you understand what I'm saying (yeah)
-[01:34.00]I hope you understand what I'm saying (yeah)
-[01:37.00]I hope you understand what I'm saying (yeah)
-[01:40.00]대체 뭔 말이 많아 | Why do you talk so much?
-[01:42.00]이해해 주길 바라지마 | Don't expect me to understand
-[01:44.00]내가 여태껏 해준 건 | After all I've done for you
-[01:45.00]어디로 갔나 | Where did it all go?
-[01:47.00]너를 말할 때 도망만 갔네 | You always ran from every talk
-[01:50.00]사랑은 누구 죄 똑같은 무게 | Love weighs the same on both of us
-[01:53.00]근데 너 비교만 해 | But you only compare
-[01:55.00]그러고는 할말 안 해 | Then you don't say a word
-[01:56.00]그러니 안 아파 내 마음이 | My heart doesn't hurt no more
-[01:59.00]널 믿을 수 있는 껀덕지 하나라도 | I just needed one reason to trust you
-[02:03.00]주길 바랬어 | I hoped you'd give me one
-[02:05.00]같이 있던 곳이 담긴 앨범은 | That album full of memories
-[02:10.00]이 추운 날씨에 나처럼 혼자 있어 | Sitting alone, just like me
-[02:14.00]대체 뭔 말이 많아 | Why do you talk so much?
-[02:16.00]너가 내 속을 알아 | Like you know what's on my mind
-[02:17.00]그냥 싫다면 떠나 | If you don't want me, just leave
-[02:20.00]넌 내 시간을 뺏어 | You keep wasting all my time
-[02:21.00]필요 없다고 버려 | Tossed me out like I meant nothing
-[02:23.00]그런 사람이라서 yeah | That's just the way you are, yeah
-[02:25.00]I hope you understand what I'm saying (yeah)
-[02:28.00]I hope you understand what I'm saying (yeah)
-[02:31.00]I hope you understand what I'm saying (yeah)
-[02:33.00]I hope you understand what I'm saying (yeah)
+[00:15.00]想要妳聽到我的新歌 | I want you to hear my new song
+[00:18.00]最簡單的情歌 | The simplest love song
+[00:20.00]有點笨的情歌 因為 | A clumsy little love song, 'cause
+[00:22.00]就怕妳覺得我只是說說的 | I'm scared you'll think it's just words
+[00:25.00]以為我在騙人 | Think I'm telling lies
+[00:27.00]感覺妳會誤認 我 | Feels like you've got me all wrong
+[00:30.00]如果妳願意相信 | If you're willing to believe
+[00:33.00]我的男子氣 可以比一比一下了 | I'll prove the man I am
+[00:37.00]我也相信妳的心 | I believe in your heart too
+[00:40.00]妳的孩子氣 girl, girl | Even your childish side, girl, girl
+[00:43.00]So can you just trust me, trust me?
+[00:47.00]So I can just trust you, trust you
+[00:51.00]And we can just trust free, trust free
+[00:54.00]And I could just love you, love you
+[00:58.00]想要問妳 信不信我的愛 | Tell me, do you believe in my love?
+[01:02.00]不是誰都能保護妳 因為愛 | Not everyone can love you like I do
+[01:06.00]如果妳問 信不信有真愛 | If you ask if true love exists
+[01:09.00]我只能說 試試看我的愛 | All I can say is give my love a chance
+[01:13.00]♪
+[01:29.00]我怕妳不懂我的性格 | I'm scared you don't know the real me
+[01:32.00]最認真的性格 最厲害的角色 因為 | I'm more sincere than I may seem, 'cause
+[01:37.00]妳說看起來像愛玩的男生 | You said I look like a player
+[01:40.00]以為我在騙人 感覺妳會誤認 我 | You think I'm lying, you've got me all wrong
+[01:44.00]如果妳願意相信 | If you're willing to believe
+[01:47.00]我的男子氣 可以比一比一下了 | I'll prove the man I am
+[01:52.00]我也相信妳的心 | I believe in your heart too
+[01:55.00]妳的孩子氣 | Even your childish side
+[01:57.00]So can you just trust me, trust me?
+[02:01.00]So I can just trust you, trust you
+[02:05.00]And we can just trust free, trust free
+[02:09.00]And I could just love you, love you
+[02:12.00]想要問妳 信不信我的愛 | Tell me, do you believe in my love?
+[02:16.00]不是誰都能保護妳 因為愛 | Not everyone can love you like I do
+[02:20.00]如果妳問 信不信有真愛 | If you ask if true love exists
+[02:24.00]我只能說 試試看我的愛 | All I can say is give my love a chance
 `;
 
 function parseLrc(lrcString) {
