@@ -1,61 +1,40 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:15.06]Yeah, yeah 산들바람 | Yeah, yeah, a gentle breeze
-[00:18.39]스쳐가는 사람 | People who pass me by
-[00:20.58]스며드는 사람 | People who find their way into my life
-[00:22.50]나는 어떤 사람? | What kind of person am I?
-[00:24.59]나는 좋은 사람? | Am I a good person?
-[00:26.56]아님 나쁜 사람? | Or a bad person?
-[00:28.64]평가는 가지각색 | Everyone sees me differently
-[00:30.49]그냥 나도 사람 | I'm only human, after all
-[00:32.59]다들 살아가겠지 | We'll all keep living our lives
-[00:34.44]다들 사랑하겠지 | We'll all keep falling in love
-[00:36.50]다들 바래가겠지 | We'll all fade away someday
-[00:38.36]Yeah, yeah 잊혀가겠지 | Yeah, yeah, we'll all be forgotten
-[00:40.99]사람들은 변하지 나도 변했듯이 | People change, just like I have
-[00:44.37]세상살이 영원한 건 없어 | Nothing in this life lasts forever
-[00:46.39]다 지나가는 해프닝 | It's all just a passing moment
-[00:48.44](Hmm-hmm-hmm) Why so serious?
-[00:52.50]Why so serious? Why so serious?
-[00:56.41](Hmm-hmm-hmm) I'm so serious
-[01:00.59]I'm so serious (I'm so serious), I'm so, I'm so
-[01:04.11]뭐 어때? | So what?
-[01:06.52]스쳐 지나가면, 뭐 어때? | If we just pass each other by, so what?
-[01:11.80]뭐 어때? | So what?
-[01:14.83]상처받으면, 뭐 어때? | If I get hurt, so what?
-[01:19.65]때론 또 아플지도 | Maybe it'll hurt sometimes
-[01:22.60]가끔은 속상해 눈물 흘릴지도 | Sometimes I might feel down and shed a few tears
-[01:27.72]뭐 어때? | So what?
-[01:30.52]그렇게 살면, 뭐 어때? | If that's how I live, so what?
-[01:36.25]물이 흘러가는 대로 흘러가 | Just go with the flow
-[01:37.82]저기 끝은 뭐가 있을지도 | Who knows what's waiting at the end
-[01:39.36]특별한 삶 평범한 삶 그 나름대로 | A special life, an ordinary life, each has its own beauty
-[01:41.60]좋은 게 좋은 거지 뭐 | Whatever works, works
-[01:43.29]좋은 게 좋은 거지 | What matters is that it feels right
-[01:44.35]뜻대로만 되지 않지 | Things don't always go the way we want
-[01:46.28]불편은 다들 감수하지 | We all have things we have to put up with
-[01:48.09]극적인 상황들의 반복은 | Going through the same drama over and over
-[01:49.50]삶을 지치게도 해 | Can really wear you down
-[01:51.05]사람들이 그런거지 | That's just how people are
-[01:52.34]없으면 있고 싶기도 | When we don't have something, we want it
-[01:53.90]있으면 없고 싶기도 | But when we do, we want to let it go
-[01:55.94]누가 사람이 지혜의 동물이라 했나 | Who ever said humans were creatures of wisdom?
-[01:58.24]내가 보기에는 후회의 동물이 분명한데 | To me, we're clearly creatures of regret
-[02:00.64]사람들은 변하지 너도 변했듯이 | People change, just like you have
-[02:03.88]세상살이 영원한 건 없어 | Nothing in this life lasts forever
-[02:05.84]다 지나가는 해프닝 | It's all just a passing moment
-[02:08.31]너의 평범함은 되려 나의 특별함 | What's ordinary to you is special to me
-[02:12.17]너의 특별함은 되려 나의 평범함 | What's special to you is ordinary to me
-[02:16.02]나의 평범함은 되려 너의 특별함 | What's ordinary to me is special to you
-[02:20.22]나의 특별함은 되려 너의 평범함 | What's special to me is ordinary to you
-[02:23.64]뭐 어때? | So what?
-[02:26.56]스쳐 지나가면, 뭐 어때? | If we just pass each other by, so what?
-[02:31.68]뭐 어때? | So what?
-[02:34.49]상처받으면, 뭐 어때? | If I get hurt, so what?
-[02:39.88]때론 또 아플지도 | Maybe it'll hurt sometimes
-[02:42.62]가끔은 속상해 눈물 흘릴지도 ooh | Sometimes I might feel down and shed a few tears, ooh
-[02:47.72]뭐 어때? | So what?
-[02:50.78]그렇게 살면, 뭐 어때? | If that's how I live, so what?
+[00:17.85]깊어진 하루 길어진 내 그림자 | The days grow darker, my shadow stretches longer
+[00:24.54]저 멀리 해는 저물고 있어 | The sun is setting in the distance
+[00:31.41]짙어 가는 어둠 속에서 헤매고 있나 봐 | I must be lost in the deepening darkness
+[00:38.23]이곳에 갇혀버린 걸까 | Am I trapped here?
+[00:46.06]아직도 숨 쉬는 곳 | Somewhere that still breathes
+[00:50.95]그곳에 다가가야 해 | I have to find my way there
+[00:58.55]Every day you seem too far away
+[01:01.50]Every time you do, I tell myself
+[01:05.37]이곳에서 기다리고 있어 | I'm waiting for you here
+[01:11.70]Every night I see you in my heart
+[01:15.09]Every time I do, I end up crying
+[01:18.56]어둠 속에 너를 불러주면 | When I call out your name in the dark
+[01:26.18]내게로 들려오는 건 깊은 내 숨결들 | All I hear are the deep breaths I take
+[01:38.47]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[01:48.22]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[02:06.72]시간이 멈춰버린 곳 | Where time has come to a standstill
+[02:12.57]이젠 다 되돌려야 해 | Now I have to turn it all back
+[02:18.36]Every day you seem too far away
+[02:21.64]Every time you do, I tell myself
+[02:24.97]이곳에서 기다리고 있어 | I'm waiting for you here
+[02:31.81]Every night I see you in my heart
+[02:35.06]Every time I do, I end up crying
+[02:38.49]어둠 속에 너를 불러주면 | When I call out your name in the dark
+[02:45.96]일렁이는 태양이 숨 쉬는 곳 | Where the shimmering sun still breathes
+[02:51.85]난 아직 이대로 멈춰 | I'm still standing still, just like this
+[03:01.73]Every day you seem too far away
+[03:05.24]Every time you do I tell myself
+[03:08.50]이곳에서 기다리고 있어 | I'm waiting for you here
+[03:15.18]Every night I see you in my heart
+[03:18.34]Every time do, I end up crying
+[03:21.79]어둠 속에 너를 불러주면 | When I call out your name in the dark
+[03:28.23]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[03:41.68]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[03:54.91]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[04:07.66]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
 `;
 
 function parseLrc(lrcString) {
