@@ -1,75 +1,59 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:01.21]It's in the way you see
-[00:03.92]You know what I need
-[00:06.52]It's in the way that you're holding me
-[00:08.60]Bringing me Close
-[00:09.90]You know that I won't let go
-[00:12.06]You got me on repeat
-[00:14.66]You got me in a dream
-[00:17.24]I let my worries go soon as you
-[00:19.22]Come through the door
-[00:20.37]Thinking about what it'd be like to be Yours
-[00:23.71]2 AM and I'm still breathing
-[00:28.12]Staring at my thoughts floating up to the ceiling
-[00:32.74]I'm Swimming in every
-[00:34.45]Thing you said
-[00:35.51]I'm thinking 'bout
-[00:36.45]Jumping in instead
-[00:38.28]I got your skinny dipping
-[00:40.23]Deep inside my head
-[00:43.36]I'm Swimming in every
-[00:45.05]Thing you said
-[00:46.19]I'm thinking 'bout
-[00:47.12]Jumping in instead
-[00:48.76]I got you skinny dipping
-[00:50.97]Deep inside my head
-[01:05.25]It's in the way you touch me
-[01:07.56]I don't know much about love
-[01:10.00]But I keep on checking my phone
-[01:12.27]To see when you're home
-[01:13.33]Or when you want me to pull up
-[01:15.80]We're one in the same,
-[01:18.27]You got me caught in the daze
-[01:20.55]I love it when you say my name
-[01:22.52]Real slow, All my love is Yours
-[01:26.00]I'm Swimming in every
-[01:27.45]Thing you said
-[01:28.61]I'm thinking 'bout
-[01:29.57]Jumping in instead
-[01:31.21]I got your skinny dipping
-[01:33.36]Deep inside my head
-[01:36.58]I'm Swimming in every
-[01:38.09]Thing you said
-[01:39.37]I'm thinking 'bout
-[01:40.20]Jumping in instead
-[01:41.93]I got you skinny dipping
-[01:44.01]Deep inside my head
-[01:58.71]Every time you move
-[02:02.98]You're lookin' like you dancin'
-[02:05.60]I think that you could have it
-[02:08.25][Oh...]Everything you do
-[02:13.75]I wanna do it with you
-[02:16.35]Don't ever wanna miss you
-[02:19.95]You do...
-[02:20.99]2 Am and I am still breathing
-[02:24.02]You do...
-[02:25.63]Staring at my thoughts floating up to ceiling
-[02:29.53]I'm Swimming in every
-[02:31.18]Thing you said
-[02:32.23]I'm thinking 'bout
-[02:33.20]Jumping in instead
-[02:34.93]I got your skinny dipping
-[02:36.94]Deep inside my head
-[02:40.28]I'm Swimming in every
-[02:41.67]Thing you said
-[02:42.75]I'm thinking 'bout
-[02:43.70]Jumping in instead
-[02:45.53]I got you skinny dipping
-[02:47.37]Deep inside my head
-[02:56.36]With you
-[03:02.35]Oh... You do You do You do
-[03:07.73]You do You do You dp
+[00:06.96]우리의 밤은 셀 수 없는 | Our night is filled with countless
+[00:10.95]별들과 모래알 그 사이 | stars and grains of sand
+[00:14.43]폭죽을 쏘는 탕탕 소리에 | With the sound of fireworks going off
+[00:18.36]우리의 웃음꽃 피우고 | We can't help but laugh
+[00:22.14]저 멀리 달빛 우리의 조명이 되고 | The moonlight in the distance lights us up
+[00:26.50]스치는 바람 내게서 네게로 번져서 갈 때에 | As the breeze carries my feelings from me to you
+[00:32.17]눈물은 다 사라져 가네 | All my tears slowly disappear
+[00:37.67]사라져 가네 우리 뒷모습이 | Our silhouettes slowly fade away
+[00:39.81]두 손을 꽉 쥔 채 노을이 진 | Holding hands tightly beneath the sunset
+[00:41.78]깜깜한 하늘 별들만 | With nothing but stars in the dark sky
+[00:43.35]가득 채워진 채 우릴 비춰주길 | I hope they fill the sky and shine on us
+[00:45.91]해가 떠오를 때까지 ah | Until the sun comes up, ah
+[00:47.93]우린 계속 타오르지 ah | We'll keep burning bright, ah
+[00:49.61]미소를 머금고 이 순간에 | With smiles on our faces, in this moment
+[00:51.67]설렘을 너에게 바톤터치 | I pass this excitement on to you
+[00:53.79]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
+[00:57.59]아침이 올 때까지 | Until the morning comes
+[01:00.99]Oh, summer, summer, summer, summer, oh
+[01:04.42]여름밤에 우리를 새기고 | Leaving our memories in this summer night
+[01:08.93]Oh, summer, summer, summer, summer, oh
+[01:12.08]다시 찾아올 그땐 어떨까? | I wonder what it'll be like when summer comes again
+[01:17.95]Oh-oh, oh-oh
+[01:21.74]그땐 어떨까 | I wonder what it'll be like then
+[01:24.30]Oh, oh-oh, oh-oh
+[01:29.39]그땐 어떨까 | I wonder what it'll be like then
+[01:33.12]모두 잠든 밤 이리 아름다운가 | How can the night be this beautiful while everyone's asleep?
+[01:35.58]달빛을 담아낸 너의 미소가 | Your smile, glowing in the moonlight
+[01:37.45]어두운 밤을 빛내 파도 같은 웃음소리 | Your laughter, like waves, lights up the dark night
+[01:40.02]귀를 간지럽혀 | It tickles my ears
+[01:41.21]전부 벗어나 into the wild | Let's break free from it all, into the wild
+[01:42.82]그들의 기준에 부합하지 마 이 시간을 | Don't let their standards define this moment
+[01:45.59]우리의 새벽은 더 뜨겁고 | Our dawn burns even brighter
+[01:47.27]날이 밝으면 the world is ours | When the sun comes up, the world is ours
+[01:48.95]저 멀리 불빛 우리의 추억이 되고 | The lights in the distance become our memories
+[01:52.84]넘치는 파도 | Beneath the crashing waves,
+[01:55.00]그 아래 남겨둔 우리 글씨에 | where we left our names
+[01:58.51]서로의 이름을 새기며 | We write each other's names
+[02:04.85]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
+[02:08.50]아침이 올 때까지 | Until the morning comes
+[02:12.18]Oh, summer, summer, summer, summer, oh
+[02:15.46]여름밤에 우리를 새기고 | Leaving our memories in this summer night
+[02:19.89]Oh, summer, summer, summer, summer, oh
+[02:22.94]다시 찾아올 그땐 어떨까? | I wonder what it'll be like when summer comes again
+[02:28.99]Oh, oh-oh, oh-oh
+[02:33.02]그땐 어떨까 | I wonder what it'll be like then
+[02:35.35]Oh, oh-oh, oh-oh
+[02:40.16]그땐 그때 | Whatever happens, when that time comes
+[02:43.01]널 곁에 두고 아껴주고 사랑하고 oh | I'll keep you close, cherish you, and love you, oh
+[02:50.55]매일 웃어주고 지금처럼 아름답길 | I'll keep making you smile, and I hope it'll stay this beautiful
+[02:58.25]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
+[03:02.33]아침이 올 때까지 | Until the morning comes
+[03:05.98]나의 마음은 낮보다 뜨거워 | My heart burns hotter than day
+[03:10.04]지금처럼 너에게 | For you, just like it does now
+[03:13.59]Oh, oh-oh, oh-oh
 `;
 
 function parseLrc(lrcString) {
