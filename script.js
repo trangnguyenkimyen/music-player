@@ -1,34 +1,61 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:01.75]Perfect
-[00:04.76]I didn't know what perfect was before you
-[00:08.71]Walls that I had, up you came and tore through
-[00:12.67]Where did they go?
-[00:16.73]Now I'm nervous
-[00:20.31]What if you wake up and words feel empty?
-[00:24.37]What if it gets easy to forget me?
-[00:28.65]You need to know
-[00:32.32]I wanna take you out, show you off to my friends
-[00:36.20]I wanna love you over and over again
-[00:40.25]It's true, the sky is the limit with you
-[00:56.71]Sometimes I think about the world that we'll make
-[01:00.07]And the life we'll create, love to dream it away
-[01:03.91]It's a new beginning
-[01:07.37]Isn't it great?
-[01:12.18]I was just waiting, patiently aching
-[01:19.99]You have me changing
-[01:23.57]I feel brand new
-[01:26.90]I wanna take you out, show you off to my friends
-[01:30.93]I wanna love you over and over again
-[01:35.01]It's true, the sky is the limit with you
-[01:42.91]And on your worst days, I can pull you in
-[01:46.88]We're an endless story that I wanna live
-[01:50.50]It's true, the sky is the limit with you, mm-mm
-[02:13.35]Oh, I wanna take you out, show you off to my friends
-[02:17.85]I wanna love you over and over again
-[02:21.76]It's true, the sky is the limit with you
-[02:27.95]The sky is the limit with you
-
+[00:15.06]Yeah, yeah 산들바람 | Yeah, yeah, a gentle breeze
+[00:18.39]스쳐가는 사람 | People who pass me by
+[00:20.58]스며드는 사람 | People who find their way into my life
+[00:22.50]나는 어떤 사람? | What kind of person am I?
+[00:24.59]나는 좋은 사람? | Am I a good person?
+[00:26.56]아님 나쁜 사람? | Or a bad person?
+[00:28.64]평가는 가지각색 | Everyone sees me differently
+[00:30.49]그냥 나도 사람 | I'm only human, after all
+[00:32.59]다들 살아가겠지 | We'll all keep living our lives
+[00:34.44]다들 사랑하겠지 | We'll all keep falling in love
+[00:36.50]다들 바래가겠지 | We'll all fade away someday
+[00:38.36]Yeah, yeah 잊혀가겠지 | Yeah, yeah, we'll all be forgotten
+[00:40.99]사람들은 변하지 나도 변했듯이 | People change, just like I have
+[00:44.37]세상살이 영원한 건 없어 | Nothing in this life lasts forever
+[00:46.39]다 지나가는 해프닝 | It's all just a passing moment
+[00:48.44](Hmm-hmm-hmm) Why so serious?
+[00:52.50]Why so serious? Why so serious?
+[00:56.41](Hmm-hmm-hmm) I'm so serious
+[01:00.59]I'm so serious (I'm so serious), I'm so, I'm so
+[01:04.11]뭐 어때? | So what?
+[01:06.52]스쳐 지나가면, 뭐 어때? | If we just pass each other by, so what?
+[01:11.80]뭐 어때? | So what?
+[01:14.83]상처받으면, 뭐 어때? | If I get hurt, so what?
+[01:19.65]때론 또 아플지도 | Maybe it'll hurt sometimes
+[01:22.60]가끔은 속상해 눈물 흘릴지도 | Sometimes I might feel down and shed a few tears
+[01:27.72]뭐 어때? | So what?
+[01:30.52]그렇게 살면, 뭐 어때? | If that's how I live, so what?
+[01:36.25]물이 흘러가는 대로 흘러가 | Just go with the flow
+[01:37.82]저기 끝은 뭐가 있을지도 | Who knows what's waiting at the end
+[01:39.36]특별한 삶 평범한 삶 그 나름대로 | A special life, an ordinary life, each has its own beauty
+[01:41.60]좋은 게 좋은 거지 뭐 | Whatever works, works
+[01:43.29]좋은 게 좋은 거지 | What matters is that it feels right
+[01:44.35]뜻대로만 되지 않지 | Things don't always go the way we want
+[01:46.28]불편은 다들 감수하지 | We all have things we have to put up with
+[01:48.09]극적인 상황들의 반복은 | Going through the same drama over and over
+[01:49.50]삶을 지치게도 해 | Can really wear you down
+[01:51.05]사람들이 그런거지 | That's just how people are
+[01:52.34]없으면 있고 싶기도 | When we don't have something, we want it
+[01:53.90]있으면 없고 싶기도 | But when we do, we want to let it go
+[01:55.94]누가 사람이 지혜의 동물이라 했나 | Who ever said humans were creatures of wisdom?
+[01:58.24]내가 보기에는 후회의 동물이 분명한데 | To me, we're clearly creatures of regret
+[02:00.64]사람들은 변하지 너도 변했듯이 | People change, just like you have
+[02:03.88]세상살이 영원한 건 없어 | Nothing in this life lasts forever
+[02:05.84]다 지나가는 해프닝 | It's all just a passing moment
+[02:08.31]너의 평범함은 되려 나의 특별함 | What's ordinary to you is special to me
+[02:12.17]너의 특별함은 되려 나의 평범함 | What's special to you is ordinary to me
+[02:16.02]나의 평범함은 되려 너의 특별함 | What's ordinary to me is special to you
+[02:20.22]나의 특별함은 되려 너의 평범함 | What's special to me is ordinary to you
+[02:23.64]뭐 어때? | So what?
+[02:26.56]스쳐 지나가면, 뭐 어때? | If we just pass each other by, so what?
+[02:31.68]뭐 어때? | So what?
+[02:34.49]상처받으면, 뭐 어때? | If I get hurt, so what?
+[02:39.88]때론 또 아플지도 | Maybe it'll hurt sometimes
+[02:42.62]가끔은 속상해 눈물 흘릴지도 ooh | Sometimes I might feel down and shed a few tears, ooh
+[02:47.72]뭐 어때? | So what?
+[02:50.78]그렇게 살면, 뭐 어때? | If that's how I live, so what?
 `;
 
 function parseLrc(lrcString) {
