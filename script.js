@@ -1,59 +1,50 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:06.96]우리의 밤은 셀 수 없는 | Our night is filled with countless
-[00:10.95]별들과 모래알 그 사이 | stars and grains of sand
-[00:14.43]폭죽을 쏘는 탕탕 소리에 | With the sound of fireworks going off
-[00:18.36]우리의 웃음꽃 피우고 | We can't help but laugh
-[00:22.14]저 멀리 달빛 우리의 조명이 되고 | The moonlight in the distance lights us up
-[00:26.50]스치는 바람 내게서 네게로 번져서 갈 때에 | As the breeze carries my feelings from me to you
-[00:32.17]눈물은 다 사라져 가네 | All my tears slowly disappear
-[00:37.67]사라져 가네 우리 뒷모습이 | Our silhouettes slowly fade away
-[00:39.81]두 손을 꽉 쥔 채 노을이 진 | Holding hands tightly beneath the sunset
-[00:41.78]깜깜한 하늘 별들만 | With nothing but stars in the dark sky
-[00:43.35]가득 채워진 채 우릴 비춰주길 | I hope they fill the sky and shine on us
-[00:45.91]해가 떠오를 때까지 ah | Until the sun comes up, ah
-[00:47.93]우린 계속 타오르지 ah | We'll keep burning bright, ah
-[00:49.61]미소를 머금고 이 순간에 | With smiles on our faces, in this moment
-[00:51.67]설렘을 너에게 바톤터치 | I pass this excitement on to you
-[00:53.79]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
-[00:57.59]아침이 올 때까지 | Until the morning comes
-[01:00.99]Oh, summer, summer, summer, summer, oh
-[01:04.42]여름밤에 우리를 새기고 | Leaving our memories in this summer night
-[01:08.93]Oh, summer, summer, summer, summer, oh
-[01:12.08]다시 찾아올 그땐 어떨까? | I wonder what it'll be like when summer comes again
-[01:17.95]Oh-oh, oh-oh
-[01:21.74]그땐 어떨까 | I wonder what it'll be like then
-[01:24.30]Oh, oh-oh, oh-oh
-[01:29.39]그땐 어떨까 | I wonder what it'll be like then
-[01:33.12]모두 잠든 밤 이리 아름다운가 | How can the night be this beautiful while everyone's asleep?
-[01:35.58]달빛을 담아낸 너의 미소가 | Your smile, glowing in the moonlight
-[01:37.45]어두운 밤을 빛내 파도 같은 웃음소리 | Your laughter, like waves, lights up the dark night
-[01:40.02]귀를 간지럽혀 | It tickles my ears
-[01:41.21]전부 벗어나 into the wild | Let's break free from it all, into the wild
-[01:42.82]그들의 기준에 부합하지 마 이 시간을 | Don't let their standards define this moment
-[01:45.59]우리의 새벽은 더 뜨겁고 | Our dawn burns even brighter
-[01:47.27]날이 밝으면 the world is ours | When the sun comes up, the world is ours
-[01:48.95]저 멀리 불빛 우리의 추억이 되고 | The lights in the distance become our memories
-[01:52.84]넘치는 파도 | Beneath the crashing waves,
-[01:55.00]그 아래 남겨둔 우리 글씨에 | where we left our names
-[01:58.51]서로의 이름을 새기며 | We write each other's names
-[02:04.85]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
-[02:08.50]아침이 올 때까지 | Until the morning comes
-[02:12.18]Oh, summer, summer, summer, summer, oh
-[02:15.46]여름밤에 우리를 새기고 | Leaving our memories in this summer night
-[02:19.89]Oh, summer, summer, summer, summer, oh
-[02:22.94]다시 찾아올 그땐 어떨까? | I wonder what it'll be like when summer comes again
-[02:28.99]Oh, oh-oh, oh-oh
-[02:33.02]그땐 어떨까 | I wonder what it'll be like then
-[02:35.35]Oh, oh-oh, oh-oh
-[02:40.16]그땐 그때 | Whatever happens, when that time comes
-[02:43.01]널 곁에 두고 아껴주고 사랑하고 oh | I'll keep you close, cherish you, and love you, oh
-[02:50.55]매일 웃어주고 지금처럼 아름답길 | I'll keep making you smile, and I hope it'll stay this beautiful
-[02:58.25]우리의 새벽은 낮보다 뜨거워 | Our dawn is hotter than day
-[03:02.33]아침이 올 때까지 | Until the morning comes
-[03:05.98]나의 마음은 낮보다 뜨거워 | My heart burns hotter than day
-[03:10.04]지금처럼 너에게 | For you, just like it does now
-[03:13.59]Oh, oh-oh, oh-oh
+[00:18.091] When it went down
+[00:19.846] It was so hard to breathe
+[00:21.982] I gave up everything
+[00:24.168] And I slow fall down to the floor
+[00:27.953] Life was escaping me
+[00:30.047] I couldn't find myself
+[00:32.241] 'Til it was all lost
+[00:34.251] Not anymore
+[00:36.014] I'm holding on to all the pieces of my heart's debris
+[00:39.741] 'Til it's time
+[00:43.960] I'll, I'll pull it together and fix myself eventually
+[00:47.838] I know it's mine
+[00:50.247] I found gold in the wreckage
+[00:52.308] Put it on a necklace
+[00:54.312] Keepin' it 'cause I-I-I, I know that it's mine
+[00:58.305] I wear it like a message
+[01:00.444] So I don't forget it
+[01:02.447] Keepin' it 'cause I-I-I, I know that it's mine
+[01:07.045] I know that it's mine
+[01:11.457] I know that it's mine
+[01:15.718] I know that it's mine
+[01:19.633] I know that it's mine
+[01:25.618] I know that it's mine
+[01:44.261] Facing the change
+[01:46.150] But it's still tough to see
+[01:48.184] At first I fought it all
+[01:50.447] I was so mean
+[01:52.393] I'm still unsure
+[01:54.204] How it's supposed to be?
+[01:56.310] I'm taking everyday now by the skin of my teeth
+[02:00.382] Until I learn
+[02:02.472] I'm holding on to all the pieces of my heart's debris
+[02:06.084] 'Til it's time
+[02:08.991] I'll... I'll pull it together and fix myself eventually
+[02:14.234] I know it's mine
+[02:16.528] I found gold in the wreckage
+[02:18.571] Put it on a necklace
+[02:20.571] Keepin' it 'cause I-I-I, I know that it's mine
+[02:24.742] I wear it like a message
+[02:26.762] So I don't forget it
+[02:28.731] Keepin' it 'cause I-I-I, I know that it's mine
+[02:35.906] I know that it's mine
+[02:44.010] I know that it's mine
+[02:52.426] I know that it's mine
+[03:00.617] I know that it's mine
 `;
 
 function parseLrc(lrcString) {
