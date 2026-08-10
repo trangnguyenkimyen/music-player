@@ -1,73 +1,34 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:21.60]Will you stay?
-[00:23.80]흘러가는 저 시간 | I wish we could stop time
-[00:26.60]잡아두고 싶어 with me | I wanna keep it here with me
-[00:32.20]Will you go? (Will you go?)
-[00:35.10]어떤 얼굴을 하고 서 있을까? | What kind of smile will you wear?
-[00:40.10]이젠 기억나지 않는 새벽들 | Those forgotten dawns have faded
-[00:43.20]Say
-[00:44.60]Oh, I'm runnin' round in a daze
-[00:46.90]We been walkin' so many ways
-[00:49.20]가슴이 터질 것 같아 | My heart's about to burst
-[00:52.30]Can't you see the take two?
-[00:54.90]Stories unfoldin' just for you
-[00:57.40]너와 함께하는 청춘 | My youth is with you
-[01:00.00]지금 내 손을 잡아 | Take my hand right now
-[01:02.50]Yeah, we never felt so young
-[01:04.90]When together sing the song
-[01:07.60]서로의 눈 맞추며 | Looking into each other's eyes
-[01:09.90]어둠 속에도 | Even in the darkest night
-[01:12.80]Yeah, we never felt so right
-[01:15.10]When I got you by my side
-[01:17.60]함께 걷던 길 따라 | Along the road we walked together
-[01:20.10]Oh, we young forever
-[01:24.40]사막도 바다가 돼서 we swim forever | Even deserts turn to oceans, we swim forever
-[01:26.90]외로워했던 고래도 이젠 singin' together | Even lonely whales are singing together now
-[01:29.40]함께니깐, 영원을 바래도 무섭지 않아 | With you, forever doesn't scare me
-[01:32.70]내 믿음은 너고 하나뿐인 이유니깐 | You're my faith, my only reason
-[01:34.70]You're my silver lining
-[01:36.10]You the one who just light me up
-[01:37.80]Oh, I can always feel you beside me
-[01:40.10]노을이 빌딩에 부딪쳐 | The sunset paints the city
-[01:42.30]우린 이렇게 서로에 주어져 | We were meant for each other
-[01:45.20]Say
-[01:46.20]Oh, I'm runnin' round in a daze
-[01:48.70]We been walkin' so many ways
-[01:51.10]널 품에 터질 듯 안아 | I hold you close so tight
-[01:53.90]Can't you see the take two?
-[01:56.70]Letters I didn't send to you
-[01:59.20]너와 함께하는 청춘 | My youth is with you
-[02:01.70]시작일지도 몰라 | Maybe this is just the beginning
-[02:04.50]Yeah, we never felt so young
-[02:06.80]When together sing the song
-[02:09.30]서로의 눈 맞추며 | Looking into each other's eyes
-[02:11.80]어둠 속에도 | Even in the darkest night
-[02:14.60]Yeah, we never felt so right
-[02:17.00]When I got you by my side
-[02:19.60]함께 걷던 길 따라 | Along the road we walked together
-[02:22.10]Oh, we young forever
-[02:26.30]당신과 함께해서 가능했고 | It was possible because of you
-[02:28.90]당신과 함께여서 행복했어 | I was happy because of you
-[02:31.20]당신의 목소리에 숨을 쉬고 | Your voice kept me breathing
-[02:33.40]당신의 눈물들로 일어섰어 | Your tears helped me stand again
-[02:35.90]당신들의 과분한 사랑을 내가 받을 자격 있을까 | Do I deserve all your love?
-[02:39.40]수년간 우리가 만든 영혼의 교집합 | Our souls have crossed for years
-[02:41.80]함께여서 너무 고맙고 행복합니다 | I'm so thankful we're together
-[02:44.70]부디 앞으로도 행복합시다 | Let's stay happy together
-[02:45.90]Yeah, we never felt so young
-[02:48.10]When together sing the song
-[02:50.60]서로의 눈 맞추며 | Looking into each other's eyes
-[02:52.90]비가 내려도 | Even when the rain falls
-[02:56.20]Yeah, we never felt so right
-[02:58.50]When I got you by my side (My side)
-[03:01.20]함께 맞던 별 따라 | Beneath the stars we shared
-[03:03.50]Oh, we young forever
-[03:07.90]이렇게 노래해 | Sing it out like this
-[03:13.20]Won't you hold my hand? (Yeah, we never felt so right)
-[03:18.20]Need you here tonight (We ain't never felt so young)
-[03:23.40]Oh, we young forever (Never felt so young)
-[03:31.70]Yeah, never felt, never felt so young
+[00:01.75]Perfect
+[00:04.76]I didn't know what perfect was before you
+[00:08.71]Walls that I had, up you came and tore through
+[00:12.67]Where did they go?
+[00:16.73]Now I'm nervous
+[00:20.31]What if you wake up and words feel empty?
+[00:24.37]What if it gets easy to forget me?
+[00:28.65]You need to know
+[00:32.32]I wanna take you out, show you off to my friends
+[00:36.20]I wanna love you over and over again
+[00:40.25]It's true, the sky is the limit with you
+[00:56.71]Sometimes I think about the world that we'll make
+[01:00.07]And the life we'll create, love to dream it away
+[01:03.91]It's a new beginning
+[01:07.37]Isn't it great?
+[01:12.18]I was just waiting, patiently aching
+[01:19.99]You have me changing
+[01:23.57]I feel brand new
+[01:26.90]I wanna take you out, show you off to my friends
+[01:30.93]I wanna love you over and over again
+[01:35.01]It's true, the sky is the limit with you
+[01:42.91]And on your worst days, I can pull you in
+[01:46.88]We're an endless story that I wanna live
+[01:50.50]It's true, the sky is the limit with you, mm-mm
+[02:13.35]Oh, I wanna take you out, show you off to my friends
+[02:17.85]I wanna love you over and over again
+[02:21.76]It's true, the sky is the limit with you
+[02:27.95]The sky is the limit with you
+
 `;
 
 function parseLrc(lrcString) {
