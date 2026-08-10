@@ -1,40 +1,75 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:17.85]깊어진 하루 길어진 내 그림자 | The days grow darker, my shadow stretches longer
-[00:24.54]저 멀리 해는 저물고 있어 | The sun is setting in the distance
-[00:31.41]짙어 가는 어둠 속에서 헤매고 있나 봐 | I must be lost in the deepening darkness
-[00:38.23]이곳에 갇혀버린 걸까 | Am I trapped here?
-[00:46.06]아직도 숨 쉬는 곳 | Somewhere that still breathes
-[00:50.95]그곳에 다가가야 해 | I have to find my way there
-[00:58.55]Every day you seem too far away
-[01:01.50]Every time you do, I tell myself
-[01:05.37]이곳에서 기다리고 있어 | I'm waiting for you here
-[01:11.70]Every night I see you in my heart
-[01:15.09]Every time I do, I end up crying
-[01:18.56]어둠 속에 너를 불러주면 | When I call out your name in the dark
-[01:26.18]내게로 들려오는 건 깊은 내 숨결들 | All I hear are the deep breaths I take
-[01:38.47]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
-[01:48.22]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
-[02:06.72]시간이 멈춰버린 곳 | Where time has come to a standstill
-[02:12.57]이젠 다 되돌려야 해 | Now I have to turn it all back
-[02:18.36]Every day you seem too far away
-[02:21.64]Every time you do, I tell myself
-[02:24.97]이곳에서 기다리고 있어 | I'm waiting for you here
-[02:31.81]Every night I see you in my heart
-[02:35.06]Every time I do, I end up crying
-[02:38.49]어둠 속에 너를 불러주면 | When I call out your name in the dark
-[02:45.96]일렁이는 태양이 숨 쉬는 곳 | Where the shimmering sun still breathes
-[02:51.85]난 아직 이대로 멈춰 | I'm still standing still, just like this
-[03:01.73]Every day you seem too far away
-[03:05.24]Every time you do I tell myself
-[03:08.50]이곳에서 기다리고 있어 | I'm waiting for you here
-[03:15.18]Every night I see you in my heart
-[03:18.34]Every time do, I end up crying
-[03:21.79]어둠 속에 너를 불러주면 | When I call out your name in the dark
-[03:28.23]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
-[03:41.68]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
-[03:54.91]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
-[04:07.66]라따따따 라따따따 라따따따 따 | La-da-da-da, la-da-da-da, la-da-da-da, da
+[00:01.21]It's in the way you see
+[00:03.92]You know what I need
+[00:06.52]It's in the way that you're holding me
+[00:08.60]Bringing me Close
+[00:09.90]You know that I won't let go
+[00:12.06]You got me on repeat
+[00:14.66]You got me in a dream
+[00:17.24]I let my worries go soon as you
+[00:19.22]Come through the door
+[00:20.37]Thinking about what it'd be like to be Yours
+[00:23.71]2 AM and I'm still breathing
+[00:28.12]Staring at my thoughts floating up to the ceiling
+[00:32.74]I'm Swimming in every
+[00:34.45]Thing you said
+[00:35.51]I'm thinking 'bout
+[00:36.45]Jumping in instead
+[00:38.28]I got your skinny dipping
+[00:40.23]Deep inside my head
+[00:43.36]I'm Swimming in every
+[00:45.05]Thing you said
+[00:46.19]I'm thinking 'bout
+[00:47.12]Jumping in instead
+[00:48.76]I got you skinny dipping
+[00:50.97]Deep inside my head
+[01:05.25]It's in the way you touch me
+[01:07.56]I don't know much about love
+[01:10.00]But I keep on checking my phone
+[01:12.27]To see when you're home
+[01:13.33]Or when you want me to pull up
+[01:15.80]We're one in the same,
+[01:18.27]You got me caught in the daze
+[01:20.55]I love it when you say my name
+[01:22.52]Real slow, All my love is Yours
+[01:26.00]I'm Swimming in every
+[01:27.45]Thing you said
+[01:28.61]I'm thinking 'bout
+[01:29.57]Jumping in instead
+[01:31.21]I got your skinny dipping
+[01:33.36]Deep inside my head
+[01:36.58]I'm Swimming in every
+[01:38.09]Thing you said
+[01:39.37]I'm thinking 'bout
+[01:40.20]Jumping in instead
+[01:41.93]I got you skinny dipping
+[01:44.01]Deep inside my head
+[01:58.71]Every time you move
+[02:02.98]You're lookin' like you dancin'
+[02:05.60]I think that you could have it
+[02:08.25][Oh...]Everything you do
+[02:13.75]I wanna do it with you
+[02:16.35]Don't ever wanna miss you
+[02:19.95]You do...
+[02:20.99]2 Am and I am still breathing
+[02:24.02]You do...
+[02:25.63]Staring at my thoughts floating up to ceiling
+[02:29.53]I'm Swimming in every
+[02:31.18]Thing you said
+[02:32.23]I'm thinking 'bout
+[02:33.20]Jumping in instead
+[02:34.93]I got your skinny dipping
+[02:36.94]Deep inside my head
+[02:40.28]I'm Swimming in every
+[02:41.67]Thing you said
+[02:42.75]I'm thinking 'bout
+[02:43.70]Jumping in instead
+[02:45.53]I got you skinny dipping
+[02:47.37]Deep inside my head
+[02:56.36]With you
+[03:02.35]Oh... You do You do You do
+[03:07.73]You do You do You dp
 `;
 
 function parseLrc(lrcString) {
