@@ -1,50 +1,84 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:18.091] When it went down
-[00:19.846] It was so hard to breathe
-[00:21.982] I gave up everything
-[00:24.168] And I slow fall down to the floor
-[00:27.953] Life was escaping me
-[00:30.047] I couldn't find myself
-[00:32.241] 'Til it was all lost
-[00:34.251] Not anymore
-[00:36.014] I'm holding on to all the pieces of my heart's debris
-[00:39.741] 'Til it's time
-[00:43.960] I'll, I'll pull it together and fix myself eventually
-[00:47.838] I know it's mine
-[00:50.247] I found gold in the wreckage
-[00:52.308] Put it on a necklace
-[00:54.312] Keepin' it 'cause I-I-I, I know that it's mine
-[00:58.305] I wear it like a message
-[01:00.444] So I don't forget it
-[01:02.447] Keepin' it 'cause I-I-I, I know that it's mine
-[01:07.045] I know that it's mine
-[01:11.457] I know that it's mine
-[01:15.718] I know that it's mine
-[01:19.633] I know that it's mine
-[01:25.618] I know that it's mine
-[01:44.261] Facing the change
-[01:46.150] But it's still tough to see
-[01:48.184] At first I fought it all
-[01:50.447] I was so mean
-[01:52.393] I'm still unsure
-[01:54.204] How it's supposed to be?
-[01:56.310] I'm taking everyday now by the skin of my teeth
-[02:00.382] Until I learn
-[02:02.472] I'm holding on to all the pieces of my heart's debris
-[02:06.084] 'Til it's time
-[02:08.991] I'll... I'll pull it together and fix myself eventually
-[02:14.234] I know it's mine
-[02:16.528] I found gold in the wreckage
-[02:18.571] Put it on a necklace
-[02:20.571] Keepin' it 'cause I-I-I, I know that it's mine
-[02:24.742] I wear it like a message
-[02:26.762] So I don't forget it
-[02:28.731] Keepin' it 'cause I-I-I, I know that it's mine
-[02:35.906] I know that it's mine
-[02:44.010] I know that it's mine
-[02:52.426] I know that it's mine
-[03:00.617] I know that it's mine
+[00:00.50]Love is painful, all the love is painful (huh)
+[00:04.00]바보처럼 반복 | Like a fool, I do it over and over
+[00:05.50]that's what I always do
+[00:08.10]But pain is beautiful (yeah), it's same as you
+[00:11.67]희망은 실망으로, 소망은 절망으로 | Hope turns into disappointment, wishes turn into despair
+[00:15.50]사랑이 깊어질수록 | The deeper the love gets
+[00:17.80]아픔은 deep해 더 | The deeper the pain gets too
+[00:19.73]이번엔 다를 거란 착각 혹은 기대, uh | Thinking this time would be different, or maybe just hoping, uh
+[00:23.41]결국 몇 년이 지났을까? | In the end, how many years have passed?
+[00:27.06]영원이란 건 없다 | Nothing lasts forever
+[00:30.71]결국 인연이 아닌 걸까 | Maybe we were never meant to be
+[00:34.65]다시 혼자가 되다 | And here I am alone again
+[00:38.58]겨우, 겨우, 겨우 | Just when, just when, just when
+[00:44.00]진짜 사랑을 찾은 줄 알다가 | I thought I'd finally found true love
+[00:48.00]결국, 또 결국, | In the end, once again
+[00:51.23]이렇게 끝나버린다 | It all ends like this
+[00:54.45]내 마음은 처음부터 그대로인데 | My heart's been the same from the start
+[00:57.45]상처로 가득해 | It's covered in scars
+[01:00.68]이젠 그대로 인해 | And now it's all because of you
+[01:02.95]점점 변해가 | I'm slowly changing
+[01:05.00]차가운 네 목소리에 나도 식어가고 | Your cold voice is making me grow cold too
+[01:10.00]멀어지는 우리 사이 | The distance between us keeps growing
+[01:12.00]되돌리기엔 | Too far gone
+[01:13.98]아무 감정 없이 | With nothing left to feel
+[01:14.96]서로를 맴돌기엔 | We're just going in circles
+[01:18.00]힘에 겨워 나 | I'm too tired to go on
+[01:19.64]이별을 선물하고 돌아서 | So I say goodbye and walk away
+[01:22.52]I'm fallin' without you
+[01:32.33]결국 누구의 잘못일까? | In the end, whose fault is it?
+[01:37.35]사랑이란 건 없다 | Maybe there's no such thing as love
+[01:40.38]결국 이별이 지는 걸까 | In the end, does goodbye always win?
+[01:45.42]지쳐 나 잠이 들다 | Worn out, I fall asleep
+[01:47.43]겨우, 겨우, 겨우 | Just when, just when, just when
+[01:53.00]여기까지가 마지막인지 우린 | Is this really where it ends for us?
+[01:58.00]결국, 또 결국, | In the end, once again
+[02:04.00]또 다시 남이 되나 | Do we become strangers again?
+
+[02:05.92]내 마음은 처음부터 그대로인데 | My heart's been the same from the start
+[02:10.03]상처로 가득해 | It's covered in scars
+[02:12.12]이젠 그대로 인해 | And now it's all because of you
+[02:14.00]점점 변해가 | I'm slowly changing
+[02:16.46]차가운 네 목소리에 나도 식어가고 | Your cold voice is making me grow cold too
+[02:20.88]멀어지는 우리 사이 | The distance between us keeps growing
+[02:23.45]되돌리기엔 | Too far gone
+[02:25.05]아무 감정 없이 | With nothing left to feel
+[02:27.00]서로를 맴돌기엔 | We're just going in circles
+[02:29.89]힘에 겨워 나 | I'm too tired to go on
+[02:32.10]이별을 선물하고 돌아서 | So I say goodbye and walk away
+[02:35.03]I'm fallin' without you
+[02:38.67]Yeah, I'm fallin' without you, hey
+[02:43.00]Uh, let's go
+
+[02:45.00]처음에는 몰랐겠지 | You probably didn't know at first
+[02:46.23]그녀의 빈 자리가 좋았겠지 | You probably liked having her gone
+[02:48.05]하루 이틀 모레 지나 보낸 | A day passed, then two, then another
+[02:50.00]뒤에서야 비로소 그녀가 고맙겠지 | Only then did you realize how much you appreciated her
+[02:52.00]몰랐겠지 네 자신에 대해 | You probably didn't know yourself
+[02:54.00]너 없이 | Without her
+[02:54.50]잘 살 수 있다던 그 확신에 대해 | Or how sure you were you'd be just fine
+[02:56.00]오늘과 다른 내일 | Tomorrow's different from today
+[02:57.50]벌써 1, 2년 | And suddenly, one or two years have passed
+[02:58.41]이 시련만큼 늘어나는 미련 | My regrets grow with every hardship
+[03:02.50](미련, 미련, 미련) | (Regrets, regrets, regrets)
+[03:08.08]시간이 지나면 달라지길 기도해 | I pray things will change with time
+[03:14.50]For you, my baby, hey
+
+[03:16.00]내 마음은 처음부터 그대로인데 | My heart's been the same from the start
+[03:19.50]상처로 가득해 | It's covered in scars
+[03:21.00]이젠 그대로 인해 (for you, my baby) | And now it's all because of you (for you, my baby)
+[03:24.00]점점 변해가 | I'm slowly changing
+[03:26.00]차가운 네 목소리에 나도 식어가고 | Your cold voice is making me grow cold too
+[03:31.27]멀어지는 우리 사이 | The distance between us keeps growing
+[03:33.50]되돌리기엔 | Too far gone
+[03:35.29]아무 감정 없이 | With nothing left to feel
+[03:37.20]서로를 맴돌기엔 | We're just going in circles
+[03:39.50]힘에 겨워 나 | I'm too tired to go on
+[03:42.00]이별을 선물하고 돌아서 | So I say goodbye and walk away
+[03:44.50]I'm fallin' without you
+[03:52.00]Yeah, I'm fallin' without you
 `;
 
 function parseLrc(lrcString) {
