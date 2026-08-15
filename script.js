@@ -1,54 +1,60 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:02.81]I can't write one song that's not about you
-[00:07.19]Can't drink without thinking about you
-[00:11.11]Is it too late to tell you that
-[00:14.52]Everything means nothing if I can't have you?
-[00:18.50]I'm in Toronto, and I got this view
-[00:21.73]But I might as well be in a hotel room, yeah
-[00:26.25]It doesn't matter 'cause I'm so consumed
-[00:29.40]Spending all my nights reading texts from you
-[00:33.82]Oh, I'm good at keeping my distance
-[00:37.42]I know that you're the feeling I'm missing
-[00:41.25]You know that I hate to admit it
-[00:45.12]But everything means nothing if I can't have you
-[00:49.36]I can't write one song that's not about you
-[00:53.50]Can't drink without thinking about you
-[00:57.59]Is it too late to tell you that
-[01:00.95]Everything means nothing if I can't have you?
-[01:04.88]I can't write one song that's not about you
-[01:09.09]Can't drink without thinking about you
-[01:13.05]Is it too late to tell you that
-[01:16.44]Everything means nothing if I can't have you?
-[01:20.64]I'm so sorry that my timing's off
-[01:23.64]But I can't move on if we're still gonna talk
-[01:28.34]Is it wrong for me to not want half?
-[01:31.48]I want all of you, all the strings attached
-[01:35.84]Oh, I'm good at keeping my distance
-[01:39.41]I know that you're the feeling I'm missing
-[01:43.27]You know that I hate to admit it
-[01:47.12]But everything means nothing if I can't have you
-[01:51.22]I can't write one song that's not about you
-[01:55.44]Can't drink without thinking about you
-[01:59.46]Is it too late to tell you that
-[02:02.87]Everything means nothing if I can't have you?
-[02:06.79]I can't write one song that's not about you
-[02:10.98]Can't drink without thinking about you
-[02:14.93]Is it too late to tell you that
-[02:18.32]Everything means nothing if I can't have you?
-[02:22.49]I'm trying to move on, forget you, but I hold on
-[02:26.29]Everything means nothing
-[02:28.00]Everything means nothing, babe
-[02:30.00]I'm trying to move on, forget you, but I hold on
-[02:33.86]Everything means nothing if I can't have you, no
-[02:37.63]I can't write one song that's not about you
-[02:41.97]Can't drink without thinking about you
-[02:45.82]Is it too late to tell you that
-[02:49.35]Everything means nothing if I can't have you? (Yeah)
-[02:52.75]I can't write one song that's not about you
-[02:57.48]Can't drink without thinking about you
-[03:01.47]Is it too late to tell you that
-[03:04.86]Everything means nothing if I can't have you?
+[00:04.82]Baby, are you down, down, down, down, down? (Oh, oh)
+[00:08.24]Down, down
+[00:12.16]Even if the sky is falling down
+[00:15.52]Down, down (ooh, ooh)
+[00:21.12]You oughta know (know, know)
+[00:24.43]Tonight is the night to let it go
+[00:28.41]Put on a show (show, show)
+[00:31.77]I wanna see how you lose control
+[00:35.33]So leave it behind
+[00:37.03]'Cause we have a night to get away (away, away)
+[00:42.63]So come on and fly with me
+[00:44.89]As we make our great escape (escape, escape)
+[00:49.95]So baby, don't worry, you are my only
+[00:53.99]You won't be lonely even if the sky is falling down
+[00:59.44]You'll be my only, no need to worry
+[01:02.99]Baby, are you down, down, down, down, down?
+[01:06.27](Down, down)
+[01:10.38]Baby, are you down, down, down, down, down?
+[01:13.68](Down, down)
+[01:17.50]Even if the sky is falling down
+[01:21.23]Just let it be
+[01:22.77]Come on and bring your body next to me
+[01:26.56]I'll take you away, hey
+[01:29.86]Turn this place into our private getaway
+[01:33.71]So leave it behind
+[01:35.24]'Cause we have a night to get away (away, away)
+[01:40.72]So come on and fly with me
+[01:43.27]As we make our great escape
+[01:46.21]So why don't we run away?
+[01:48.25]Baby, don't worry, you are my only (ooh)
+[01:51.98]You won't be lonely (no) even if the sky is falling down
+[01:57.53]You'll be my only (yeah), no need to worry (no)
+[02:01.29]Baby, are you down, down, down, down, down?
+[02:04.65](Down, down) whoo
+[02:08.47]Baby, are you down, down, down, down, down?
+[02:11.71](Down, down) mm, you down?
+[02:15.78]Even if the sky is falling down
+[02:18.48]Down like she 'posed to be, she gets down low for me
+[02:22.20]Down like her temperature, 'cause to me, she zero degrees
+[02:25.51]She cold, over-freeze, I got that girl from overseas
+[02:29.20]Now she's my Miss America, now can I be her soldier, please?
+[02:32.82]I'm fighting for this girl on a battlefield of love
+[02:36.20]Don't it look like baby Cupid sendin' her arrows from above?
+[02:39.86]Don't you ever leave the side of me, indefinitely, not probably
+[02:43.62]And honestly, I'm down like the economy, yeah
+[02:46.63]Baby, don't worry, you are my only
+[02:50.25]You won't be lonely (whoa) even if the sky is falling down
+[02:55.60]You'll be my only (no), no need to worry (no)
+[02:59.41]Baby, are you down, down, down, down, down?
+[03:02.74](Down, down) mm, down (down, down)
+[03:06.70]Baby, are you down, down, down, down, down?
+[03:09.34]Ooh, no (down, down), and the sky is fallin' down
+[03:13.72]Even if the sky is falling down
+[03:16.57]Ooh, no (ha-ha-ha)
+[03:19.51]And the sky is falling down
 `;
 
 function parseLrc(lrcString) {
