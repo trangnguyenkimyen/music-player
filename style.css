@@ -39,7 +39,7 @@ body {
 .orb-1 {
   width: 50vw;
   height: 50vw;
-  background-color: #00bbf4;
+  background-color: #ff8fb3;
   top: -10%;
   left: -10%;
   animation-duration: 12s;
@@ -48,7 +48,7 @@ body {
 .orb-2 {
   width: 40vw;
   height: 40vw;
-  background-color: #00bbf4;
+  background-color: #d16ba5;
   bottom: -20%;
   right: -10%;
   animation-duration: 15s;
@@ -58,7 +58,7 @@ body {
 .orb-3 {
   width: 35vw;
   height: 35vw;
-  background-color: #003b50;
+  background-color: #fcb69f;
   top: 30%;
   left: 40%;
   animation-duration: 18s;

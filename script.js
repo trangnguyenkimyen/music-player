@@ -1,53 +1,61 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:07.59]If I told you this was only gonna hurt
-[00:11.36]If I warned you that the fire's gonna burn
-[00:14.79]Would you walk in? Would you let me do it first?
-[00:18.65]Do it all in the name of love
-[00:21.69]Would you let me lead you, even when you're blind?
-[00:25.47]In the darkness, in the middle of the night
-[00:29.28]In the silence, when there's no one by your side
-[00:32.89]Would you call in the name of love?
-[00:35.60]In the name of love
-[00:39.13]Name of love
-[00:42.68]In the name of love
-[00:46.37]Name of love
-[00:49.56]In the name of-
-[00:52.62](In the name, name-)
-[01:00.24](In the name, name-)
-[01:04.63]If I told you we could bathe in all the lights
-[01:08.48]Would you rise up, come and meet me in the sky?
-[01:11.91]Would you trust me when you're jumping from the heights?
-[01:15.76]Would you fall in the name of love?
-[01:18.99]When there's madness, when there's poison in your head
-[01:22.84]When the sadness leaves you broken in your bed
-[01:26.39]I will hold you in the depths of your despair
-[01:30.16]And it's all in the name of love
-[01:32.66]In the name of love
-[01:36.52]Name of love
-[01:40.09]In the name of love
-[01:43.78]Name of love
-[01:46.79]In the name of-
-[01:49.82](In the name, name-)
-[01:57.31](In the name, name-)
-[02:02.32]I wanna testify
-[02:05.99]Scream in the holy light
-[02:09.27]You bring me back to life
-[02:13.03]And it's all in the name of love
-[02:16.74]I wanna testify
-[02:20.46]Scream in the holy light
-[02:23.91]You bring me back to life
-[02:27.21]And it's all in the name of love
-[02:30.15]In the name of love
-[02:33.60]Name of love
-[02:37.24]In the name of love
-[02:41.02]Name of love
-[02:44.18]In the name of-
-[02:47.51](In the name, name-)
-[02:54.84](In the name, name-)
-[02:58.23](In the name of-)
-[03:05.53](In the name, name-)
-[03:09.02](In the name of-)
+[00:02.12]Take a seat
+[00:04.44]Right over there, sat on the stairs
+[00:06.50]Stay or leave
+[00:08.59]The cabinets are bare, and I'm unaware
+[00:10.97]Of just how we got into this mess, got so aggressive
+[00:15.62]I know we meant all good intentions
+[00:19.13]So pull me closer
+[00:21.12]Why don't you pull me close?
+[00:23.52]Why don't you come on over?
+[00:25.80]I can't just let you go
+[00:28.51]Oh, baby
+[00:31.33]Why don't you just meet me in the middle?
+[00:35.48]I'm losing my mind just a little
+[00:39.95]So why don't you just meet me in the middle?
+[00:44.23]In the middle
+[00:47.03]Baby
+[00:49.28]Why don't you just meet me in the middle?
+[00:53.59]I'm losing my mind just a little
+[00:57.90]So why don't you just meet me in the middle?
+[01:02.14]In the middle
+[01:04.26]Oh, take a step
+[01:07.16]Back for a minute, into the kitchen
+[01:09.50]Floors are wet
+[01:11.43]And taps are still running, dishes are broken
+[01:14.08]How did we get into this mess? Got so aggressive
+[01:18.39]I know we meant all good intentions
+[01:22.06]So pull me closer
+[01:23.93]Why don't you pull me close?
+[01:26.34]Why don't you come on over?
+[01:28.44]I can't just let you go
+[01:31.37]Oh, baby
+[01:34.06]Why don't you just meet me in the middle?
+[01:38.39]I'm losing my mind just a little
+[01:42.79]So why don't you just meet me in the middle?
+[01:46.93]In the middle
+[01:50.46]Looking at you, I can't lie
+[01:52.91]Just pouring out admission
+[01:55.27]Regardless of my objection, oh-oh
+[01:59.39]And it's not about my pride
+[02:01.92]I need you on my skin, just
+[02:04.18]Come over, pull me in, just-
+[02:07.31]Oh, baby
+[02:10.06]Why don't you just meet me in the middle?
+[02:14.15]I'm losing my mind just a little
+[02:18.55]So why don't you just meet me in the middle?
+[02:22.88]In the middle, no, no
+[02:25.77]Baby
+[02:27.95]Why don't you just meet me in the middle? Oh yeah
+[02:32.18]I'm losing my mind just a little
+[02:36.67]So why don't you just meet me in the middle? Oh
+[02:40.89]In the middle
+[02:43.63]Baby
+[02:45.93]Why don't you just meet me in the middle, baby?
+[02:50.09]I'm losing my mind just a little
+[02:54.66]So why don't you just meet me in the middle, middle?
+[02:58.73]In the middle, middle
 `;
 
 function parseLrc(lrcString) {
