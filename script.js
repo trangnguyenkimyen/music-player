@@ -1,61 +1,45 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:02.12]Take a seat
-[00:04.44]Right over there, sat on the stairs
-[00:06.50]Stay or leave
-[00:08.59]The cabinets are bare, and I'm unaware
-[00:10.97]Of just how we got into this mess, got so aggressive
-[00:15.62]I know we meant all good intentions
-[00:19.13]So pull me closer
-[00:21.12]Why don't you pull me close?
-[00:23.52]Why don't you come on over?
-[00:25.80]I can't just let you go
-[00:28.51]Oh, baby
-[00:31.33]Why don't you just meet me in the middle?
-[00:35.48]I'm losing my mind just a little
-[00:39.95]So why don't you just meet me in the middle?
-[00:44.23]In the middle
-[00:47.03]Baby
-[00:49.28]Why don't you just meet me in the middle?
-[00:53.59]I'm losing my mind just a little
-[00:57.90]So why don't you just meet me in the middle?
-[01:02.14]In the middle
-[01:04.26]Oh, take a step
-[01:07.16]Back for a minute, into the kitchen
-[01:09.50]Floors are wet
-[01:11.43]And taps are still running, dishes are broken
-[01:14.08]How did we get into this mess? Got so aggressive
-[01:18.39]I know we meant all good intentions
-[01:22.06]So pull me closer
-[01:23.93]Why don't you pull me close?
-[01:26.34]Why don't you come on over?
-[01:28.44]I can't just let you go
-[01:31.37]Oh, baby
-[01:34.06]Why don't you just meet me in the middle?
-[01:38.39]I'm losing my mind just a little
-[01:42.79]So why don't you just meet me in the middle?
-[01:46.93]In the middle
-[01:50.46]Looking at you, I can't lie
-[01:52.91]Just pouring out admission
-[01:55.27]Regardless of my objection, oh-oh
-[01:59.39]And it's not about my pride
-[02:01.92]I need you on my skin, just
-[02:04.18]Come over, pull me in, just-
-[02:07.31]Oh, baby
-[02:10.06]Why don't you just meet me in the middle?
-[02:14.15]I'm losing my mind just a little
-[02:18.55]So why don't you just meet me in the middle?
-[02:22.88]In the middle, no, no
-[02:25.77]Baby
-[02:27.95]Why don't you just meet me in the middle? Oh yeah
-[02:32.18]I'm losing my mind just a little
-[02:36.67]So why don't you just meet me in the middle? Oh
-[02:40.89]In the middle
-[02:43.63]Baby
-[02:45.93]Why don't you just meet me in the middle, baby?
-[02:50.09]I'm losing my mind just a little
-[02:54.66]So why don't you just meet me in the middle, middle?
-[02:58.73]In the middle, middle
+[00:09.42]I woke up with this pain in my neck
+[00:13.77]Had no medicine to keep me in check
+[00:18.12]You know exactly what to say
+[00:20.76]To keep me wrapped in your chains
+[00:23.30]While I'm here choking on regret
+[00:28.47]You got a couple tricks up your sleeve
+[00:32.23]Taking advantage of my low self-esteem
+[00:37.17]You leave my bank account empty
+[00:39.76]And your message always pending
+[00:42.01]Yet somehow you're still so tempting to me
+[00:46.39]Girl you're my hit of nicotine in the morning
+[00:51.03]Even though you're no good for me, I still want it
+[00:55.72]You drive me crazy, baby, but I adore ya
+[01:00.67]Yeah you know we got a good connection
+[01:03.22]But we're headed in the wrong direction
+[01:05.54]You know we got a good connection
+[01:07.75]But we're headed in the wrong direction
+[01:10.63]I laid down with a weight on my chest
+[01:14.99]One too many heavy thoughts in my head
+[01:19.69]It's just so hard to admit it
+[01:22.19]And I wish that I could quit it
+[01:24.56]But I always pick it up again
+[01:28.86]Girl you're my hit of nicotine in the morning
+[01:33.73]Even though you're no good for me, I still want it
+[01:38.14]You drive me crazy, baby, but I adore ya
+[01:43.34]Yeah you know we got a good connection
+[01:45.62]But we're headed in the wrong direction
+[01:48.27]You know we got a good connection
+[01:50.18]But we're headed in the wrong direction
+[01:53.30]Oh whoa oh
+[01:58.44]Oh whoa oh
+[02:01.40]Wrong direction, yeah
+[02:03.37]Oh whoa oh
+[02:06.56]You know we got a good connection
+[02:09.17]But we're headed in the wrong direction
+[02:11.27]Girl you're my hit of nicotine in the morning
+[02:15.93]Even though you're no good for me, I still want it
+[02:20.60]You drive me crazy, baby, but I adore ya
+[02:25.33]Yeah you know we got a good connection
+[02:28.11]But we're headed in the wrong direction
 `;
 
 function parseLrc(lrcString) {
