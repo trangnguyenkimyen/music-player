@@ -1,45 +1,66 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:09.42]I woke up with this pain in my neck
-[00:13.77]Had no medicine to keep me in check
-[00:18.12]You know exactly what to say
-[00:20.76]To keep me wrapped in your chains
-[00:23.30]While I'm here choking on regret
-[00:28.47]You got a couple tricks up your sleeve
-[00:32.23]Taking advantage of my low self-esteem
-[00:37.17]You leave my bank account empty
-[00:39.76]And your message always pending
-[00:42.01]Yet somehow you're still so tempting to me
-[00:46.39]Girl you're my hit of nicotine in the morning
-[00:51.03]Even though you're no good for me, I still want it
-[00:55.72]You drive me crazy, baby, but I adore ya
-[01:00.67]Yeah you know we got a good connection
-[01:03.22]But we're headed in the wrong direction
-[01:05.54]You know we got a good connection
-[01:07.75]But we're headed in the wrong direction
-[01:10.63]I laid down with a weight on my chest
-[01:14.99]One too many heavy thoughts in my head
-[01:19.69]It's just so hard to admit it
-[01:22.19]And I wish that I could quit it
-[01:24.56]But I always pick it up again
-[01:28.86]Girl you're my hit of nicotine in the morning
-[01:33.73]Even though you're no good for me, I still want it
-[01:38.14]You drive me crazy, baby, but I adore ya
-[01:43.34]Yeah you know we got a good connection
-[01:45.62]But we're headed in the wrong direction
-[01:48.27]You know we got a good connection
-[01:50.18]But we're headed in the wrong direction
-[01:53.30]Oh whoa oh
-[01:58.44]Oh whoa oh
-[02:01.40]Wrong direction, yeah
-[02:03.37]Oh whoa oh
-[02:06.56]You know we got a good connection
-[02:09.17]But we're headed in the wrong direction
-[02:11.27]Girl you're my hit of nicotine in the morning
-[02:15.93]Even though you're no good for me, I still want it
-[02:20.60]You drive me crazy, baby, but I adore ya
-[02:25.33]Yeah you know we got a good connection
-[02:28.11]But we're headed in the wrong direction
+[00:00.01]Baby, I'm just trying to play it cool
+[00:03.83]But I just can't hide that I want you
+[00:07.01]Wait a minute, 이게 뭐지? | Wait a minute, what is this?
+[00:09.57]내 심장이 lub-dub, 자꾸만 뛰어 | My heart goes lub-dub, it just keeps racing
+[00:13.19]저 멀리서도, oh, my gosh | Even from far away, oh, my gosh
+[00:16.89]끌어당겨, you're my crush | You're pulling me in, you're my crush
+[00:20.89]초능력처럼 | like a superpower
+[00:21.79]거대한 자석이 된 것만 같아 my heart | My heart feels like a giant magnet
+[00:25.52]네 모든 게 내 맘에 달라붙어버려, boy | Everything about you sticks to my heart, boy
+[00:30.13]We're magnetized, 인정할게 | We're magnetized, I'll admit it
+[00:34.58]This time, I want
+[00:36.45]You, you, you, you, like it's magnetic
+[00:40.04]You, you, you, you, you, you, you, you
+[00:41.80]super 이끌림 | super attraction
+[00:43.70]You, you, you, you, like it's magnetic
+[00:47.39]You, you, you, you, you, you, you, you
+[00:49.00]super 이끌림 | super attraction
+[00:50.92]Bae, bae, bae, bae, bae, bae, bae, bae, bae
+[00:54.58]Dash-da-da, dash-da-da, dash-da, like it's magnetic
+[00:58.25]Bae, bae, bae, bae, bae, bae, bae, bae, bae
+[01:01.92]Dash-da-da, dash-da-da, baby, don't say no
+
+[01:06.21]정반대 같아 our type | We're total opposites
+[01:08.10]넌 J, 난 완전 P | You're a J, I'm a total P
+[01:09.92]S와 N 극이지만 그래서 끌리지 | We're like opposite poles
+[01:11.80]그래서 끌리지 | But that's why we're drawn together
+[01:13.59]내가 만들래 green light | I'll give us the green light
+[01:15.40]여잔 배짱이지 | A girl's gotta have guts
+[01:16.87]So let's go, let's go, let's go, let's go
+[01:20.35]숨기고 싶지 않아 | I don't wanna hide
+[01:22.20]자석 같은 my heart | This magnetic heart of mine
+[01:24.14]내 맘의 끌림대로 | I'll follow where my heart pulls me
+[01:26.20]너를 향해 갈게, boy | And head straight for you, boy
+[01:28.71]We're magnetized, 인정할게 | We're magnetized, I'll admit it
+[01:33.15]This time, I want
+[01:34.90]You, you, you, you, like it's magnetic
+[01:38.58]You, you, you, you, you, you, you, you
+[01:40.30]super 이끌림 | super attraction
+[01:42.46]You, you, you, you, like it's magnetic
+[01:45.88]You, you, you, you, you, you, you, you
+[01:47.60]super 이끌림 | super attraction
+
+[01:49.24]No push and pull
+[01:50.70]전속력으로 너에게 갈게 | I'll race straight to you
+[01:53.18]Our chemistry
+[01:54.60]난 과몰입해 지금 순간에 | I'm completely lost in this moment
+[01:56.72]No push and pull
+[01:58.20]네게 집중 후회는 안 할래 | I'll focus on you, no regrets
+[02:00.65]Never holding back
+[02:02.50]직진해, yeah | Going straight for you, yeah
+[02:06.06]This time, I want
+[02:08.01]You, you, you, you, like it's magnetic
+[02:11.46]You, you, you, you, you, you, you, you
+[02:13.20]super 이끌림 | super attraction
+[02:15.46]You, you, you, you, like it's magnetic
+[02:18.93]You, you, you, you, you, you, you, you
+[02:20.60]super 이끌림 | super attraction
+[02:22.58]Bae, bae, bae, bae, bae, bae, bae, bae, bae
+[02:26.25]Dash-da-da, dash-da-da, dash-da, like it's magnetic
+[02:29.89]Bae, bae, bae, bae, bae, bae, bae, bae, bae
+[02:33.42]Dash-da-da, dash-da-da, baby, don't say no
 `;
 
 function parseLrc(lrcString) {
