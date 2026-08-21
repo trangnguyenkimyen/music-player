@@ -1,59 +1,53 @@
 // Dữ liệu lrc
 const rawLrc = `
-[00:03.36]M-B-T-M-I-U
-[00:11.05]M-B-T-M-I-U
-[00:14.88]꿈에도 암만 낯설는지 몰라 | Even in my dreams, I don't know why you feel so unfamiliar
-[00:18.63]부담스럽지마는 설레잖아 | It feels a little overwhelming, but my heart still flutters
-[00:22.42]아무 말 없이, 숙맥 타 더 좋아 | Without a word, I like your awkward side even more
-[00:26.63]You're mine and I'm yours
-[00:30.08]너의 모든 게 너무 아름다워 | Everything about you is so beautiful
-[00:33.84]어떡해, 대체 불가한 여자면? | What do I do when there's no one else like you?
-[00:37.60]그대여, 이제 내 사랑을 받아 | My love, now accept my love
-[00:41.82]You're mine and I'm yours
-[00:46.24]별이 빛나는 이 밤 | On this starry night
-[00:48.00]가슴속 떨리는 마음 | My heart is trembling inside
-[00:50.09]너를 향해 모두 줄게, baby | I'll give you all of me, baby
-[00:53.88]좀 더 내게 다가와 | Come a little closer to me
-[00:55.80]내 두 손을 잡아봐 | Take both of my hands
-[00:57.66]나를 너에게 줄게 | I'll give myself to you
-[01:00.60]Take me, take me, take me, I'm yours
-[01:02.83]Take me, take me, I'm yours
-[01:04.88]Take me, take me, I'm yours
-[01:08.16]Take me, take me, take me, I'm yours
-[01:10.56]Take me, take me, I'm yours
-[01:12.34]Take me, take me, I'm yours
-[01:15.86]너의 눈을 보고 있으면 알아 | I can tell just by looking into your eyes
-[01:19.54]제발 아니라고 말하지 말아 | Please don't tell me it's not true
-[01:23.31]숨기려 해도, 태가 숨지 않아 | Even if you try to hide it, it still shows
-[01:27.46]Are you mine? 'Cause I'm yours
-[01:31.97]별이 빛나는 이 밤 | On this starry night
-[01:33.80]가슴속 떨리는 마음 | My heart is trembling inside
-[01:35.71]너를 향해 모두 줄게, baby | I'll give you all of me, baby
-[01:39.59]좀 더 내게 다가와 | Come a little closer to me
-[01:41.50]내 두 손을 잡아봐 | Take both of my hands
-[01:43.35]나를 너에게 줄게 | I'll give myself to you
-[01:46.22]Take me, take me, take me, I'm yours
-[01:48.53]Take me, take me, I'm yours
-[01:50.52]Take me, take me, I'm yours
-[01:53.87]Take me, take me, take me, I'm yours
-[01:56.29]Take me, take me, I'm yours
-[01:58.19]Take me, take me, I'm yours
-[02:01.59]Baby, baby, baby (ooh)
-[02:09.13]Baby, baby (ooh), baby (ooh)
-[02:17.93]빠르게 흘러만 가는 이 시간이 싫어 | I hate how quickly time keeps passing by
-[02:21.78]군침만 도는, mm | You're only making me want you more, mm
-[02:25.56]달리 난 너를 보낼 수는 없어 | I just can't let you go
-[02:28.35]Hurry up, baby, I'm yours
-[02:47.11]Take me, take me, take me, I'm yours
-[02:49.59]Take me, take me, I'm yours
-[02:51.42]Take me, take me, I'm yours
-[02:54.79]Take me, take me, take me, I'm yours
-[02:57.15]Take me, take me, I'm yours
-[02:59.12]Take me, take me, I'm yours
-[03:02.42]Baby, baby, baby (ooh)
-[03:10.02]Baby, baby (ooh), baby (ooh)
-[03:17.79]Baby, baby (ooh), baby (ooh)
-[03:25.38]Baby, baby (ooh), baby (ooh)
+[00:07.59]If I told you this was only gonna hurt
+[00:11.36]If I warned you that the fire's gonna burn
+[00:14.79]Would you walk in? Would you let me do it first?
+[00:18.65]Do it all in the name of love
+[00:21.69]Would you let me lead you, even when you're blind?
+[00:25.47]In the darkness, in the middle of the night
+[00:29.28]In the silence, when there's no one by your side
+[00:32.89]Would you call in the name of love?
+[00:35.60]In the name of love
+[00:39.13]Name of love
+[00:42.68]In the name of love
+[00:46.37]Name of love
+[00:49.56]In the name of-
+[00:52.62](In the name, name-)
+[01:00.24](In the name, name-)
+[01:04.63]If I told you we could bathe in all the lights
+[01:08.48]Would you rise up, come and meet me in the sky?
+[01:11.91]Would you trust me when you're jumping from the heights?
+[01:15.76]Would you fall in the name of love?
+[01:18.99]When there's madness, when there's poison in your head
+[01:22.84]When the sadness leaves you broken in your bed
+[01:26.39]I will hold you in the depths of your despair
+[01:30.16]And it's all in the name of love
+[01:32.66]In the name of love
+[01:36.52]Name of love
+[01:40.09]In the name of love
+[01:43.78]Name of love
+[01:46.79]In the name of-
+[01:49.82](In the name, name-)
+[01:57.31](In the name, name-)
+[02:02.32]I wanna testify
+[02:05.99]Scream in the holy light
+[02:09.27]You bring me back to life
+[02:13.03]And it's all in the name of love
+[02:16.74]I wanna testify
+[02:20.46]Scream in the holy light
+[02:23.91]You bring me back to life
+[02:27.21]And it's all in the name of love
+[02:30.15]In the name of love
+[02:33.60]Name of love
+[02:37.24]In the name of love
+[02:41.02]Name of love
+[02:44.18]In the name of-
+[02:47.51](In the name, name-)
+[02:54.84](In the name, name-)
+[02:58.23](In the name of-)
+[03:05.53](In the name, name-)
+[03:09.02](In the name of-)
 `;
 
 function parseLrc(lrcString) {
